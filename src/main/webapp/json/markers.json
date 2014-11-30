@@ -1,6 +1,7 @@
 {"objects":[
-  {"marker":{"coordinates":[-41.285,174.774]}},
-  {"marker":{"coordinates":[-41.293,174.762],"message":"message 2"}},
-  {"marker":{"coordinates":[-41.301,174.794],"message":"message 3"}},
-  {"marker":{"coordinates":[-41.273,174.801],"message":"message 4"}}
+  {"marker":{"address":"7 rue de la fidélité 75010 Paris","message":"C'est chez moi"}},
+  {"marker":{"coordinates":[48.8534100,2.3488000]}},
+  {"marker":{"coordinates":[44.9544100,2.6481000],"message":"message 2"}},
+  {"marker":{"coordinates":[43.2564100,2.7428000],"message":"message 3"}},
+  {"marker":{"coordinates":[48.4574100,2.8448000],"message":"message 4"}}
 ]}
