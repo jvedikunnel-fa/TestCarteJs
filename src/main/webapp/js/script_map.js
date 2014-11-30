@@ -8,12 +8,6 @@
             attribution: '&copy; ' + mapLink + ' Contributors',
             maxZoom: 18,
             }).addTo(map);
-//	var marker = L.marker([-41.2858, 174.7868]).addTo(map);
-//	var polygon = L.polygon([
-//        [-41.2858, 174.7868],
-//        [-41.2868, 174.7878],
-//        [-41.2858, 174.7888]
-//    ]).addTo(map);
 
 	/* Initialize the SVG layer */
 	map._initPathRoot()
@@ -23,8 +17,6 @@
 	g = svg.append("g");
 
 	d3.json("json/circles.json", function(collection) {
-		*//* Add a LatLng object to each item in the dataset *//*
-
 		collection.objects.forEach(function(d) {
 
 			d.LatLng = new L.LatLng(d.circle.coordinates[0],
@@ -51,4 +43,45 @@
 				}
 			)
 		}
-	})*/
+	})
+
+	d3.json("json/polygones.json", function(collection) {
+    		var feature = g.selectAll("polygon")
+    			.data(collection.objects)
+    			.enter().append("polygon")
+    			.style("stroke", "purple")
+    			.style("stroke-width", "1")
+    			.style("opacity", .6)
+    			.style("fill", "lime");
+
+    		map.on("viewreset", update);
+    		update();
+
+    		function update() {
+    			feature.attr("points",function(d) {
+    				var coords = "";
+    				for (var vari in d.polygone.coordinates){
+    					var lat = d.polygone.coordinates[vari][0];
+    					var long = d.polygone.coordinates[vari][1];
+    					var latLng = new L.LatLng(lat,long );
+    					var x = map.latLngToLayerPoint(latLng).x;
+    					var y = map.latLngToLayerPoint(latLng).y;
+    					coords += x+","+y+" ";
+    				}
+					return coords;
+					}
+				)
+
+    	}})
+
+	d3.json("json/markers.json", function(collection) {
+			collection.objects.forEach(function(d) {
+					var lat = d.marker.coordinates[0];
+					var long = d.marker.coordinates[1];
+					var marker = L.marker([lat, long]).addTo(map);
+					var msg = d.marker.message;
+					if (msg != null){
+						marker.bindPopup(msg).openPopup();
+					}
+        		})
+    	})

@@ -1,0 +1,6 @@
+{"objects":[
+  {"marker":{"coordinates":[-41.285,174.774]}},
+  {"marker":{"coordinates":[-41.293,174.762],"message":"message 2"}},
+  {"marker":{"coordinates":[-41.301,174.794],"message":"message 3"}},
+  {"marker":{"coordinates":[-41.273,174.801],"message":"message 4"}}
+]}
