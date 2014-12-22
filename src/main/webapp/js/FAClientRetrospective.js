@@ -97,12 +97,14 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
     tock : function(annee){
         if (this._clientFas.aAuMoinsUneLatLng(annee)){
             var latlngs = this._clientFas.trouverLatLngsPour(annee);
-            this.charger(latlngs);
+            var villes = this._clientFas.trouverLesVillesPour(annee);
+            this.charger(latlngs, villes);
         }
     },
-    charger : function (latlngs) {
+    charger : function (latlngs, villes) {
         for (var i = 0, len = latlngs.length; i < len; i++) {
-            L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true}).addTo(this._map);
+            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true}).addTo(this._map);
+            marker.bindPopup(villes[i]);
         }
     },
     clearData : function () {
@@ -138,6 +140,15 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
             }
         }
         return latlngs;
+    },
+    trouverLesVillesPour : function(annee){
+        var villes = [];
+        for (var i = 0, len = this._annees.length; i < len; i++) {
+            if (this._annees[i] === annee){
+                villes.push(this._villes[i]);
+            }
+        }
+        return villes;
     }
 });
 
