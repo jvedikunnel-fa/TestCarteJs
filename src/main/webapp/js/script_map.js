@@ -15,7 +15,9 @@ $(function() {
 
     // Playback options
     var fAClientRetrospectiveOptions = {
-		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
+		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000,
+		anneeDeDepart : 2006,
+		dateControl : true
 		// TODO
     };
     // Initialize playback

@@ -1,5 +1,47 @@
 L.FAClientRetrospective = L.FAClientRetrospective || {};
 
+L.FAClientRetrospective.Util = L.Class.extend({
+  statics: {
+
+    DateStr: function(annee) {
+      return "Année: " + annee;
+    }
+  }
+
+});
+
+L.FAClientRetrospective.DateControl = L.Control.extend({
+    options : {
+        position : 'bottomleft'
+    },
+
+    initialize : function (fAClientRetrospective) {
+        this.fAClientRetrospective = fAClientRetrospective;
+    },
+
+    onAdd : function (map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control-layers-expanded');
+
+        var self = this;
+        var fAClientRetrospective = this.fAClientRetrospective;
+        var anneeCourante = fAClientRetrospective.getAnneeCourante();
+
+        var datetime = L.DomUtil.create('div', 'datetimeControl', this._container);
+
+        // date time
+        this._date = L.DomUtil.create('p', '', datetime);
+
+        this._date.innerHTML = L.FAClientRetrospective.Util.DateStr(anneeCourante);
+
+        // setup callback
+        fAClientRetrospective.addCallback(function (anneeCourante) {
+            self._date.innerHTML = L.FAClientRetrospective.Util.DateStr(anneeCourante);
+        });
+
+        return this._container;
+    }
+});
+
 L.FAClientRetrospective.PlayControl = L.Control.extend({
     options : {
         position : 'bottomright'
@@ -102,13 +144,25 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
 L.FAClientRetrospective.Clock = L.Class.extend({
 
     initialize: function (clientFaController, callback, options) {
+        this._callbacksArry = [];
+        if (callback) this.addCallback(callback);
         this._clientFaController = clientFaController;
-        this._cursor = 2005; // TODO trouver la première année
+        this._anneeCourante = options.anneeDeDepart; // TODO trouver la première année
         this._tempsDAttenteEntreDeuxAjoutDeMarkerEnMs = options.tempsDAttenteEntreDeuxAjoutDeMarkerEnMs;
     },
+    _callbacks: function(anneeCourante) {
+        var arry = this._callbacksArry;
+        for(var i=0, len=arry.length; i<len; i++){
+            arry[i](anneeCourante);
+       }
+    },
+    addCallback: function(fn) {
+        this._callbacksArry.push(fn);
+    },
     _tick: function (self) {
-        self._clientFaController.tock(self._cursor);
-        self._cursor += 1;
+        self._clientFaController.tock(self._anneeCourante);
+        self._anneeCourante += 1;
+        self._callbacks(self._anneeCourante);
     },
     start: function () {
         this._intervalID = window.setInterval(
@@ -117,6 +171,9 @@ L.FAClientRetrospective.Clock = L.Class.extend({
             this
         );
     }, 
+    getAnneeCourante: function() {
+        return this._anneeCourante;
+      },
     stop: function () {
         if (!this._intervalID) return;
         clearInterval(this._intervalID);
@@ -124,7 +181,10 @@ L.FAClientRetrospective.Clock = L.Class.extend({
     },
     isPlaying: function() {
         return this._intervalID ? true : false;
-    }
+    },
+    setAnneeDeDepart : function (anneeCourante) {
+        this._callbacks(anneeCourante);
+      },
 });
 
 L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
@@ -132,7 +192,9 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         ClientFaController : L.FAClientRetrospective.ClientFaController,
         ClientFas : L.FAClientRetrospective.ClientFas,
         Clock : L.FAClientRetrospective.Clock,      
-        PlayControl : L.FAClientRetrospective.PlayControl
+        PlayControl : L.FAClientRetrospective.PlayControl,
+        DateControl : L.FAClientRetrospective.DateControl,
+        Util : L.FAClientRetrospective.Util
     },
     options : {
         tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
@@ -146,6 +208,11 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         
         this.playControl = new L.FAClientRetrospective.PlayControl(this);
         this.playControl.addTo(map);
+        
+        if (this.options.dateControl) {
+            this.dateControl = new L.FAClientRetrospective.DateControl(this);
+            this.dateControl.addTo(map);
+        }
     },
     clearData : function(){
         this._clientFaController.clear();
@@ -153,6 +220,7 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
     setData : function (geoJSON) {
         this.clearData();
         this.addData(geoJSON);
+        this.setAnneeDeDepart(this.options.anneeDeDepart);
     },
     clearData : function (geoJSON) {
         this._clientFaController.clearData();
