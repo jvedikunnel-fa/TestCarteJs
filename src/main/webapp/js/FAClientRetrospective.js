@@ -117,15 +117,23 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
 
 L.FAClientRetrospective.ClientFas = L.Class.extend({
     initialize : function (geoJSON, options) {
-              this._geoJSON = geoJSON;
-              this._annees = geoJSON.properties.annees;
-              this._villes = geoJSON.properties.villes;
-              this._coordinates = geoJSON.geometry.coordinates;
-          },
+        this._geoJSON = geoJSON;
+        this._clientFas = this.charger(geoJSON);
+    },
+    charger : function (geoJSON){
+        var clientFas = []
+        var annees = geoJSON.properties.annees;
+        var villes = geoJSON.properties.villes;
+        var coordinates = geoJSON.geometry.coordinates;
+        for (var i = 0, len = coordinates.length; i < len; i++) {
+            clientFas.push(new clientFa(coordinates[i], annees[i], villes[i]));
+        }
+        return clientFas;
+    },
     aAuMoinsUneLatLng : function(annee){
         var trouve = false;
-        for (var i = 0, len = this._annees.length; i < len; i++) {
-            if (this._annees[i] === annee){
+        for (var i = 0, len = this._clientFas.length; i < len; i++) {
+            if (this._clientFas[i].annee === annee){
                 trouve = true;
                 break;
             }
@@ -134,18 +142,18 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
     },
     trouverLatLngsPour : function(annee){
         var latlngs = [];
-        for (var i = 0, len = this._annees.length; i < len; i++) {
-            if (this._annees[i] === annee){
-                latlngs.push(this._coordinates[i]);
+        for (var i = 0, len = this._clientFas.length; i < len; i++) {
+            if (this._clientFas[i].annee === annee){
+                latlngs.push(this._clientFas[i].coordonnee);
             }
         }
         return latlngs;
     },
     trouverLesVillesPour : function(annee){
         var villes = [];
-        for (var i = 0, len = this._annees.length; i < len; i++) {
-            if (this._annees[i] === annee){
-                villes.push(this._villes[i]);
+        for (var i = 0, len = this._clientFas.length; i < len; i++) {
+            if (this._clientFas[i].annee === annee){
+                villes.push(this._clientFas[i].ville);
             }
         }
         return villes;
@@ -243,4 +251,10 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         }
         this._clientFaController.addData(new L.FAClientRetrospective.ClientFas(geoJSON, this.options));
     }
-    });
+});
+
+function clientFa(coordonnee, annee, ville) {
+    this.coordonnee = coordonnee;
+    this.annee = annee;
+    this.ville = ville;
+}
