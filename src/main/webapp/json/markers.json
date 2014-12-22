@@ -1,7 +1,0 @@
-{"objects":[
-  {"marker":{"address":"7 rue de la fidélité 75010 Paris","message":"C'est chez moi"}},
-  {"marker":{"coordinates":[48.8534100,2.3488000]}},
-  {"marker":{"coordinates":[44.9544100,2.6481000],"message":"message 2"}},
-  {"marker":{"coordinates":[43.2564100,2.7428000],"message":"message 3"}},
-  {"marker":{"coordinates":[48.4574100,2.8448000],"message":"message 4"}}
-]}
