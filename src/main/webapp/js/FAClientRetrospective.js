@@ -234,12 +234,12 @@ L.FAClientRetrospective.Clock = L.Class.extend({
         this._callbacksArry.push(fn);
     },
     _tick: function (self) {
-        if (self._anneeCourante >= self._anneeDeFin){
+        if (self._anneeCourante > self._anneeDeFin){
             return;
         }
         self._clientFaController.tock(self._anneeCourante);
-        self._anneeCourante += 1;
         self.callbacks(self._anneeCourante);
+        self._anneeCourante += 1;
     },
     start: function () {
         this._intervalID = window.setInterval(
