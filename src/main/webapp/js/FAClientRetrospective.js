@@ -1,9 +1,56 @@
 L.FAClientRetrospective = L.FAClientRetrospective || {};
 
+L.FAClientRetrospective.PlayControl = L.Control.extend({
+    options : {
+        position : 'bottomright'
+    },
+
+    initialize : function (fAClientRetrospective) {
+        this.fAClientRetrospective = fAClientRetrospective;
+    },
+
+    onAdd : function (map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control-layers-expanded');
+
+        var self = this;
+        var fAClientRetrospective = this.fAClientRetrospective;
+
+        var playControl = L.DomUtil.create('div', 'playControl', this._container);
+
+
+        this._button = L.DomUtil.create('button', '', playControl);
+        this._button.innerHTML = 'Play';
+
+
+        var stop = L.DomEvent.stopPropagation;
+
+        L.DomEvent
+        .on(this._button, 'click', stop)
+        .on(this._button, 'mousedown', stop)
+        .on(this._button, 'dblclick', stop)
+        .on(this._button, 'click', L.DomEvent.preventDefault)
+        .on(this._button, 'click', play, this);
+
+        function play(){
+            if (fAClientRetrospective.isPlaying()){
+                fAClientRetrospective.stop();
+                self._button.innerHTML = 'Play';
+            }
+            else {
+                fAClientRetrospective.start();
+                self._button.innerHTML = 'Stop';
+            }
+        }
+
+        return this._container;
+    }
+});
+
 L.FAClientRetrospective.ClientFaController = L.Class.extend({
     initialize : function (map, options) {
         this._map = map; 
         this._options = options;
+        this._clientFas = null;
     },
     tock : function(annee){
         if (this._clientFas.aAuMoinsUneLatLng(annee)){
@@ -24,15 +71,13 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
     }
 });
 
-//L.FAClientRetrospective = L.FAClientRetrospective || {};
-
 L.FAClientRetrospective.ClientFas = L.Class.extend({
     initialize : function (geoJSON, options) {
-        this._geoJSON = geoJSON;
-        this._annees = geoJSON.properties.annees;
-        this._villes = geoJSON.properties.villes;
-        this._coordinates = geoJSON.geometry.coordinates;
-    },
+              this._geoJSON = geoJSON;
+              this._annees = geoJSON.properties.annees;
+              this._villes = geoJSON.properties.villes;
+              this._coordinates = geoJSON.geometry.coordinates;
+          },
     aAuMoinsUneLatLng : function(annee){
         var trouve = false;
         for (var i = 0, len = this._annees.length; i < len; i++) {
@@ -54,8 +99,6 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
     }
 });
 
-//L.FAClientRetrospective = L.FAClientRetrospective || {};
-
 L.FAClientRetrospective.Clock = L.Class.extend({
 
     initialize: function (clientFaController, callback, options) {
@@ -73,16 +116,23 @@ L.FAClientRetrospective.Clock = L.Class.extend({
             this._tempsDAttenteEntreDeuxAjoutDeMarkerEnMs,
             this
         );
+    }, 
+    stop: function () {
+        if (!this._intervalID) return;
+        clearInterval(this._intervalID);
+        this._intervalID = null;
     },
-
-
+    isPlaying: function() {
+        return this._intervalID ? true : false;
+    }
 });
 
 L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
     statics : {
         ClientFaController : L.FAClientRetrospective.ClientFaController,
         ClientFas : L.FAClientRetrospective.ClientFas,
-        Clock : L.FAClientRetrospective.Clock
+        Clock : L.FAClientRetrospective.Clock,      
+        PlayControl : L.FAClientRetrospective.PlayControl
     },
     options : {
         tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
@@ -92,8 +142,10 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         this._map = map;
         this._clientFaController = new L.FAClientRetrospective.ClientFaController(map, this.options);
         L.FAClientRetrospective.Clock.prototype.initialize.call(this, this._clientFaController, callback, this.options);
-        this.setData(geoJSON);  
-        this.start(); // TODO lier l'action start à un bouton
+        this.setData(geoJSON);
+        
+        this.playControl = new L.FAClientRetrospective.PlayControl(this);
+        this.playControl.addTo(map);
     },
     clearData : function(){
         this._clientFaController.clear();
@@ -113,14 +165,3 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         this._clientFaController.addData(new L.FAClientRetrospective.ClientFas(geoJSON, this.options));
     }
     });
-
-/*L.Map.addInitHook(function () {
-    if (this.options.fAClientRetrospective) {
-        this.fAClientRetrospective = new L.FAClientRetrospective(this);
-    }
-});*/
-/*
-
-L.FAClientRetrospective = function (map, geoJSON, callback, options) {
-    return new L.FAClientRetrospective(map, geoJSON, callback, options);
-};*/

@@ -1,6 +1,6 @@
 $(function() {
     // Setup leaflet map
-     var map = L.map('map').setView([48.8534100, 2.3488000], 6);
+     var map = L.map('map').setView([48.8534100, 2.3488000], 4);
             mapLink =
                 '<a href="http://openstreetmap.org">OpenStreetMap</a>';
             L.tileLayer(
