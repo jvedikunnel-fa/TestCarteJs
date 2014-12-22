@@ -88,6 +88,60 @@ L.FAClientRetrospective.PlayControl = L.Control.extend({
     }
 });
 
+L.FAClientRetrospective.SliderControl = L.Control.extend({
+    options : {
+        position : 'bottomleft'
+    },
+
+    initialize : function (fAClientRetrospective) {
+        this.fAClientRetrospective = fAClientRetrospective;
+    },
+
+    onAdd : function (map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control-layers-expanded');
+
+        var self = this;
+        var fAClientRetrospective = this.fAClientRetrospective;
+
+        // slider
+        this._slider = L.DomUtil.create('input', 'slider', this._container);
+        this._slider.type = 'range';
+        this._slider.min = 2006;
+        this._slider.max = 2015;
+        this._slider.value = 2006;
+
+        var stop = L.DomEvent.stopPropagation;
+
+        L.DomEvent
+        .on(this._slider, 'click', stop)
+        .on(this._slider, 'mousedown', stop)
+        .on(this._slider, 'dblclick', stop)
+        .on(this._slider, 'click', L.DomEvent.preventDefault)
+        //.on(this._slider, 'mousemove', L.DomEvent.preventDefault)
+        .on(this._slider, 'change', onSliderChange, this)
+        .on(this._slider, 'mousemove', onSliderChange, this);
+
+
+        function onSliderChange(e) {
+            var val = Number(e.target.value);
+            // TODO do something with it
+        }
+
+        fAClientRetrospective.addCallback(function (ms) {
+            self._slider.value = ms;
+        });
+
+
+        /*map.on('playback:add_tracks', function(){
+            self._slider.min = playback.getStartTime();
+            self._slider.max = playback.getEndTime();
+            self._slider.value = playback.getTime();
+        });*/
+
+        return this._container;
+    }
+});
+
 L.FAClientRetrospective.ClientFaController = L.Class.extend({
     initialize : function (map, options) {
         this._map = map; 
@@ -169,7 +223,7 @@ L.FAClientRetrospective.Clock = L.Class.extend({
         this._anneeCourante = options.anneeDeDepart; // TODO trouver la première année
         this._tempsDAttenteEntreDeuxAjoutDeMarkerEnMs = options.tempsDAttenteEntreDeuxAjoutDeMarkerEnMs;
     },
-    _callbacks: function(anneeCourante) {
+    callbacks: function(anneeCourante) {
         var arry = this._callbacksArry;
         for(var i=0, len=arry.length; i<len; i++){
             arry[i](anneeCourante);
@@ -181,7 +235,7 @@ L.FAClientRetrospective.Clock = L.Class.extend({
     _tick: function (self) {
         self._clientFaController.tock(self._anneeCourante);
         self._anneeCourante += 1;
-        self._callbacks(self._anneeCourante);
+        self.callbacks(self._anneeCourante);
     },
     start: function () {
         this._intervalID = window.setInterval(
@@ -200,10 +254,7 @@ L.FAClientRetrospective.Clock = L.Class.extend({
     },
     isPlaying: function() {
         return this._intervalID ? true : false;
-    },
-    setAnneeDeDepart : function (anneeCourante) {
-        this._callbacks(anneeCourante);
-      },
+    }
 });
 
 L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
@@ -213,7 +264,8 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         Clock : L.FAClientRetrospective.Clock,      
         PlayControl : L.FAClientRetrospective.PlayControl,
         DateControl : L.FAClientRetrospective.DateControl,
-        Util : L.FAClientRetrospective.Util
+        Util : L.FAClientRetrospective.Util,
+        SliderControl : L.FAClientRetrospective.SliderControl
     },
     options : {
         tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
@@ -232,6 +284,11 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
             this.dateControl = new L.FAClientRetrospective.DateControl(this);
             this.dateControl.addTo(map);
         }
+        
+        if (this.options.sliderControl) {
+            this.sliderControl = new L.FAClientRetrospective.SliderControl(this);
+            this.sliderControl.addTo(map);
+        }
     },
     clearData : function(){
         this._clientFaController.clear();
@@ -239,7 +296,7 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
     setData : function (geoJSON) {
         this.clearData();
         this.addData(geoJSON);
-        this.setAnneeDeDepart(this.options.anneeDeDepart);
+        this.callbacks(this.options.anneeDeDepart);
     },
     clearData : function (geoJSON) {
         this._clientFaController.clearData();

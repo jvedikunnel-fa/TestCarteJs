@@ -17,7 +17,8 @@ $(function() {
     var fAClientRetrospectiveOptions = {
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000,
 		anneeDeDepart : 2006,
-		dateControl : true
+		dateControl : true,
+		sliderControl : true
 		// TODO
     };
     // Initialize playback
