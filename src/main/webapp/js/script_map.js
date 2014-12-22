@@ -17,6 +17,7 @@ $(function() {
     var fAClientRetrospectiveOptions = {
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000,
 		anneeDeDepart : 2006,
+		anneeDeFin : 2015,
 		dateControl : true,
 		sliderControl : true
 		// TODO

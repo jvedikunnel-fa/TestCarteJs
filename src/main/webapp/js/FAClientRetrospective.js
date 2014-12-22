@@ -220,7 +220,8 @@ L.FAClientRetrospective.Clock = L.Class.extend({
         this._callbacksArry = [];
         if (callback) this.addCallback(callback);
         this._clientFaController = clientFaController;
-        this._anneeCourante = options.anneeDeDepart; // TODO trouver la première année
+        this._anneeCourante = options.anneeDeDepart;
+        this._anneeDeFin = options.anneeDeFin;
         this._tempsDAttenteEntreDeuxAjoutDeMarkerEnMs = options.tempsDAttenteEntreDeuxAjoutDeMarkerEnMs;
     },
     callbacks: function(anneeCourante) {
@@ -233,6 +234,9 @@ L.FAClientRetrospective.Clock = L.Class.extend({
         this._callbacksArry.push(fn);
     },
     _tick: function (self) {
+        if (self._anneeCourante >= self._anneeDeFin){
+            return;
+        }
         self._clientFaController.tock(self._anneeCourante);
         self._anneeCourante += 1;
         self.callbacks(self._anneeCourante);
