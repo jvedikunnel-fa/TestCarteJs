@@ -2,13 +2,47 @@ L.FAClientRetrospective = L.FAClientRetrospective || {};
 
 L.FAClientRetrospective.Util = L.Class.extend({
   statics: {
-
     DateStr: function(annee) {
       return "Année: " + annee;
     }
   }
 
 });
+
+L.FAClientRetrospective.CouleurMarker = L.Class.extend({
+    statics: {
+        couleurParDefaut : "#ff8056",
+        trouverCouleur : function (annee) {
+            function anneeCouleur(annee, couleur) {
+                this.annee = annee;
+                this.couleur = couleur;
+            }
+            var backgroundColor = [
+                                new anneeCouleur(2000,"#D1FFD1"),
+                                new anneeCouleur(2001,"#C2FFC2"),
+                                new anneeCouleur(2002,"#B2FFB2"),
+                                new anneeCouleur(2003,"#A3FFA3"),
+                                new anneeCouleur(2004,"#94FF94"),
+                                new anneeCouleur(2005,"#85FF85"),
+                                new anneeCouleur(2006,"#75FF75"),
+                                new anneeCouleur(2007,"#66FF66"),
+                                new anneeCouleur(2008,"#5CE65C"),
+                                new anneeCouleur(2009,"#52CC52"),
+                                new anneeCouleur(2010,"#47B247"),
+                                new anneeCouleur(2011,"#3D993D"),
+                                new anneeCouleur(2012,"#338033"),
+                                new anneeCouleur(2013,"#296629"),
+                                new anneeCouleur(2014,"#1F4C1F  ")];
+            for (var i = 0, len = backgroundColor.length; i < len; i++) {
+                if (backgroundColor[i].annee === annee){
+                    return backgroundColor[i].couleur;
+                }
+            }
+            return this.couleurParDefaut;
+        }
+  }
+});
+
 
 L.FAClientRetrospective.DateControl = L.Control.extend({
     options : {
@@ -155,12 +189,17 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
         if (this._clientFas.aAuMoinsUneLatLng(annee)){
             var latlngs = this._clientFas.trouverLatLngsPour(annee);
             var villes = this._clientFas.trouverLesVillesPour(annee);
-            this.charger(latlngs, villes);
+            this.charger(annee, latlngs, villes);
         }
     },
-    charger : function (latlngs, villes) {
+    charger : function (annee, latlngs, villes) {
+        var myIcon = L.divIcon({
+            className: 'client-fa-marker-icon',
+            iconSize: [13, 13]
+        });
         for (var i = 0, len = latlngs.length; i < len; i++) {
-            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true}).addTo(this._map);
+            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, icon: myIcon}).addTo(this._map)
+            marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(annee);
             marker.bindPopup(villes[i]);
         }
     },
@@ -273,6 +312,7 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         PlayControl : L.FAClientRetrospective.PlayControl,
         DateControl : L.FAClientRetrospective.DateControl,
         Util : L.FAClientRetrospective.Util,
+        CouleurMarker : L.FAClientRetrospective.CouleurMarker,
         SliderControl : L.FAClientRetrospective.SliderControl
     },
     options : {
