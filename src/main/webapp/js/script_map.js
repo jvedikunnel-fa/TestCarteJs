@@ -16,12 +16,12 @@ $(function() {
     // Playback options
     var fAClientRetrospectiveOptions = {
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 1000,
-		anneeDeDepart : 2005,
+		anneeDeDepart : 2000,
 		anneeDeFin : 2015,
 		dateControl : true,
 		sliderControl : true
 		// TODO
     };
     // Initialize playback
-    var fAClientRetrospective = new L.FAClientRetrospective(map, data, null, fAClientRetrospectiveOptions);
+    var fAClientRetrospective = new L.FAClientRetrospective(map, data_plus, null, fAClientRetrospectiveOptions);
 });
