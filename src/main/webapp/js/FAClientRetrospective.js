@@ -106,9 +106,9 @@ L.FAClientRetrospective.SliderControl = L.Control.extend({
         // slider
         this._slider = L.DomUtil.create('input', 'slider', this._container);
         this._slider.type = 'range';
-        this._slider.min = 2006;
+        this._slider.min = 2000;
         this._slider.max = 2015;
-        this._slider.value = 2006;
+        this._slider.value = 2000;
 
         var stop = L.DomEvent.stopPropagation;
 
