@@ -1,0 +1,3437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[68 Boulevard Denfert Rochereau, 16100 Cognac, France]]></description>
+        <Point>
+            <coordinates>-0.32685539999999946,45.6964446,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[50 Avenue Paul Firino Martell, 16100 Cognac, France]]></description>
+        <Point>
+            <coordinates>-0.33213839999996253,45.6903435,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[59800 Lille, France]]></description>
+        <Point>
+            <coordinates>3.080825300000015,50.6335574,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[2 Rue de la Source de Clermont, 74500 Évian-les-Bains, France]]></description>
+        <Point>
+            <coordinates>6.5909196000000065,46.4011204,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Belfort, France]]></description>
+        <Point>
+            <coordinates>6.863848999999959,47.63967400000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[9 Rue des 3 Banquets, 31000 Toulouse, France]]></description>
+        <Point>
+            <coordinates>1.4479576999999608,43.5991133,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[281 Rue Pasteur, 39220 Les Rousses, France]]></description>
+        <Point>
+            <coordinates>6.060338399999978,46.4849487,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Cergy, France]]></description>
+        <Point>
+            <coordinates>2.0603250000000344,49.03561699999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[86 Quai de la République, 85800 Saint-Gilles-Croix-de-Vie, France]]></description>
+        <Point>
+            <coordinates>-1.9446138000000701,46.6975354,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[4 Rue Gabriel Plançon, 25000 Besançon, France]]></description>
+        <Point>
+            <coordinates>6.015278299999977,47.2342631,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[1 Rue du Pont Moreau, 57000 Metz, France]]></description>
+        <Point>
+            <coordinates>6.175880199999938,49.1227978,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[231 Avenue de Parme, 01000 Bourg-en-Bresse, France]]></description>
+        <Point>
+            <coordinates>5.2474004000000605,46.2175292,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[107 Grand Rue, 57970 Yutz, France]]></description>
+        <Point>
+            <coordinates>6.192350199999964,49.3613381,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[1 Place Ducale, 08000 Charleville-Mézières, France]]></description>
+        <Point>
+            <coordinates>4.7203113000000485,49.7739156,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[57 Avenue Pierre Semard, 06130 Grasse, France]]></description>
+        <Point>
+            <coordinates>6.93105300000002,43.65664899999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #17</name>
+        <description><![CDATA[Commune de Rillieux la Pape, 165 Rue Ampère, 69140 Rillieux-la-Pape, France]]></description>
+        <Point>
+            <coordinates>4.897891200000004,45.8187383,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #18</name>
+        <description><![CDATA[Place du Huit Mai 1945, 78330 Fontenay-le-Fleury, France]]></description>
+        <Point>
+            <coordinates>2.0445188999999573,48.8111052,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #19</name>
+        <description><![CDATA[Place Foch, 93220 Gagny, France]]></description>
+        <Point>
+            <coordinates>2.5354790000000094,48.8851294,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #20</name>
+        <description><![CDATA[Plaza Padre Juan de Mariana, 8, 45600 Talavera de la Reina, Toledo, Espagne]]></description>
+        <Point>
+            <coordinates>-4.832958299999973,39.9585135,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #21</name>
+        <description><![CDATA[22290 Lanvollon, France]]></description>
+        <Point>
+            <coordinates>-2.9859390000000303,48.632011,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #22</name>
+        <description><![CDATA[Piazza della Libertà, 17, 15121 Alessandria AL, Italie]]></description>
+        <Point>
+            <coordinates>8.616857200000027,44.912888,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #23</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 59190 Morbecque, France]]></description>
+        <Point>
+            <coordinates>2.5167512000000443,50.6925687,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #24</name>
+        <description><![CDATA[Place du Marché 12, 1170 Aubonne, Suisse]]></description>
+        <Point>
+            <coordinates>6.391562099999987,46.4953943,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #25</name>
+        <description><![CDATA[Route du Centre 26, 1727 Corpataux-Magnedens, Suisse]]></description>
+        <Point>
+            <coordinates>7.094945199999984,46.74120509999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #26</name>
+        <description><![CDATA[68 Boulevard Denfert Rochereau, 16100 Cognac, France]]></description>
+        <Point>
+            <coordinates>-0.32685539999999946,45.6964446,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #27</name>
+        <description><![CDATA[50 Avenue Paul Firino Martell, 16100 Cognac, France]]></description>
+        <Point>
+            <coordinates>-0.33213839999996253,45.6903435,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #28</name>
+        <description><![CDATA[2 Rue de la Commanderie, 16100 Châteaubernard, France]]></description>
+        <Point>
+            <coordinates>-0.3153744999999617,45.673991,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #29</name>
+        <description><![CDATA[Mairie, Rue du Docteur Gernez, 76210 Gruchet-le-Valasse, France]]></description>
+        <Point>
+            <coordinates>0.4839829000000009,49.55753170000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #30</name>
+        <description><![CDATA[Rue Félix Faure, 76170 La Frenaye, France]]></description>
+        <Point>
+            <coordinates>0.5695240000000013,49.526736,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #31</name>
+        <description><![CDATA[1 Place de la République, 72600 Mamers, France]]></description>
+        <Point>
+            <coordinates>0.3687482000000273,48.3487902,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #32</name>
+        <description><![CDATA[112 Avenue Kléber, 75116 Paris, France]]></description>
+        <Point>
+            <coordinates>2.2884440999999924,48.8649873,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #33</name>
+        <description><![CDATA[16 Rue Saint-Luc, 36000 Châteauroux, France]]></description>
+        <Point>
+            <coordinates>1.6978891999999632,46.8122749,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #34</name>
+        <description><![CDATA[6 Avenue de Chambéry, 74000 Annecy, France]]></description>
+        <Point>
+            <coordinates>6.120611300000064,45.8999619,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #35</name>
+        <description><![CDATA[220 Rue François Mansart, 78370 Plaisir, France]]></description>
+        <Point>
+            <coordinates>1.9391645000000608,48.8253064,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[11 Boulevard Lacordaire, 59100 Roubaix, France]]></description>
+        <Point>
+            <coordinates>3.1735905000000457,50.6781898,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[12 Rue Bégand, 10000 Troyes, France]]></description>
+        <Point>
+            <coordinates>4.0651695000000245,48.2933716,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[42 Avenue Jean Jaurès, 33530 Bassens, France]]></description>
+        <Point>
+            <coordinates>-0.5162655000000314,44.8998498,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Rue Molière, 49400 Saumur, France]]></description>
+        <Point>
+            <coordinates>-0.07614999999998417,47.260526,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[5 Rue Alfred Dubois, 91460 Marcoussis, France]]></description>
+        <Point>
+            <coordinates>2.231452200000035,48.6431769,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[300 Avenue du 8 Mai 1945, 13630 Eyragues, France]]></description>
+        <Point>
+            <coordinates>4.848338699999999,43.8377167,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[10 Rue Blin, 61100 Flers, France]]></description>
+        <Point>
+            <coordinates>-0.5661072999999988,48.7497728,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Place du Champ de Foire, 16110 La Rochefoucauld, France]]></description>
+        <Point>
+            <coordinates>0.3822397000000137,45.7423376,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[3 Grand-Rue de la Mairie, 31320 Pechbusque, France]]></description>
+        <Point>
+            <coordinates>1.4563309999999774,43.5294666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[Place François Mitterrand, 31750 Escalquens, France]]></description>
+        <Point>
+            <coordinates>1.559158000000025,43.51817399999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[100 Avenue de Suffren, 75007 Paris, France]]></description>
+        <Point>
+            <coordinates>2.30268030000002,48.8498429,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[13 Avenue Hoche, 75008 Paris, France]]></description>
+        <Point>
+            <coordinates>2.3034225000000106,48.8768795,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[Jan Rosierlaan 1, 3620 Lanaken, Belgique]]></description>
+        <Point>
+            <coordinates>5.652814700000022,50.8888505,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[18 Rue Chantereine, 27170 Beaumont-le-Roger, France]]></description>
+        <Point>
+            <coordinates>0.7772165000000086,49.0808167,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[Cours National, 13690 Graveson, France]]></description>
+        <Point>
+            <coordinates>4.772595000000024,43.851009,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #17</name>
+        <description><![CDATA[Hôtel de ville de Villeneuve-d'Ascq, Place Salvador Allende, 59650 Villeneuve-d'Ascq, France]]></description>
+        <Point>
+            <coordinates>3.1318089999999756,50.61949,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #18</name>
+        <description><![CDATA[67 Rue Rouget de l'Isle, 41110 Saint-Aignan, France]]></description>
+        <Point>
+            <coordinates>1.3782234000000244,47.2678312,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #19</name>
+        <description><![CDATA[4 Avenue du Général de Gaulle, 33810 Ambès, France]]></description>
+        <Point>
+            <coordinates>-0.5286131999999952,45.0122437,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #20</name>
+        <description><![CDATA[21 Rue du Colonel Pierre Avia, 75015 Paris, France]]></description>
+        <Point>
+            <coordinates>2.2760101999999733,48.8300934,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #21</name>
+        <description><![CDATA[Chemin de Mourlaz 2, 1232 Confignon, Suisse]]></description>
+        <Point>
+            <coordinates>6.084975900000018,46.1733422,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[81 Rue Ernest Gaugiran, 41600 Lamotte-Beuvron, France]]></description>
+        <Point>
+            <coordinates>2.0365397000000485,47.6014753,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[27 Rue des Portes de Bretagne, 35133 Le Loroux, France]]></description>
+        <Point>
+            <coordinates>-1.0664435999999569,48.3941728,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #24</name>
+        <description><![CDATA[Rue des Ecoles 1, 2855 Glovelier, Suisse]]></description>
+        <Point>
+            <coordinates>7.197275600000012,47.333791,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Avenue des Monts du Soir, 42600 Montbrison, France]]></description>
+        <Point>
+            <coordinates>4.0476072999999815,45.6129262,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Hémicycle, 2 Rue de la Source, 97488, Réunion]]></description>
+        <Point>
+            <coordinates>55.44965019999995,-20.8867094,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[24 Boulevard des Alliés, 62100 Calais, France]]></description>
+        <Point>
+            <coordinates>1.8507289000000355,50.960891,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Rue Ninon Vallin, 26100 Romans-sur-Isère, France]]></description>
+        <Point>
+            <coordinates>5.075633000000039,45.047737,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Plaza de la Constitución, 1, 28260 Galapagar, Madrid, Espagne]]></description>
+        <Point>
+            <coordinates>-4.003686199999947,40.5772928,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #30</name>
+        <description><![CDATA[30 Avenue George V, 75008 Paris, France]]></description>
+        <Point>
+            <coordinates>2.301268299999947,48.8681977,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #30</name>
+        <description><![CDATA[30 Avenue George V, 75008 Paris, France]]></description>
+        <Point>
+            <coordinates>2.301268299999947,48.8681977,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #32</name>
+        <description><![CDATA[8 Rue du Huit Mai 1945, 42130 Boën-sur-Lignon, France]]></description>
+        <Point>
+            <coordinates>4.003778900000043,45.7446554,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[675 Route des Bourdonnes, 42800 Genilac, France]]></description>
+        <Point>
+            <coordinates>4.583972099999983,45.5346683,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Route de Verdilly, 02400 Château-Thierry, France]]></description>
+        <Point>
+            <coordinates>3.408460699999978,49.0509713,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Place de l'Hôtel de Ville, 04180 Villeneuve, France]]></description>
+        <Point>
+            <coordinates>5.861195700000053,43.8944436,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[1 Rue de l'Hôtel de ville, 25800 Valdahon, France]]></description>
+        <Point>
+            <coordinates>6.345484899999974,47.1474171,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[1 Place de l'Hôtel de ville, 74200 Thonon-les-Bains, France]]></description>
+        <Point>
+            <coordinates>6.477728599999978,46.3733099,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[1 Avenue du Général de Gaulle, 57400 Sarrebourg, France]]></description>
+        <Point>
+            <coordinates>7.052468299999987,48.7324753,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[13 Place Gambetta, 33000 Bordeaux, France]]></description>
+        <Point>
+            <coordinates>-0.5800133999999844,44.8407363,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Mairie, 13 Rue de la République, 13130 Berre-l'Étang, France]]></description>
+        <Point>
+            <coordinates>5.16653539999993,43.473596,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Mairie de Bouc BEL Air, Rue de l'Hôtel de ville, 13320 Bouc-Bel-air, France]]></description>
+        <Point>
+            <coordinates>5.4136740000000145,43.451018,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[2 Rue de la Font, 70200 Lure, France]]></description>
+        <Point>
+            <coordinates>6.494088799999986,47.6862818,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[1 Avenue du Général de Gaulle, 91300 Massy, France]]></description>
+        <Point>
+            <coordinates>2.2697696999999835,48.7315416,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[2 Rue de la Mairie, 35120 Roz-Landrieux, France]]></description>
+        <Point>
+            <coordinates>-1.8126479999999674,48.5432615,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Place de la Mairie, 31380 Montastruc-la-Conseillère, France]]></description>
+        <Point>
+            <coordinates>1.5912590000000364,43.717142,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Mairie, 15 Rue du Four, 86500 Montmorillon, France]]></description>
+        <Point>
+            <coordinates>0.8679309999999987,46.4249459,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Rue du Maupas, 38360 Noyarey, France]]></description>
+        <Point>
+            <coordinates>5.629975999999942,45.2457095,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[4e Arrondissement, Paris, France]]></description>
+        <Point>
+            <coordinates>2.3555559999999787,48.855556,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[19 Place Duroc, 54700 Pont-à-Mousson, France]]></description>
+        <Point>
+            <coordinates>6.054881499999965,48.9033858,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Pontarlier, France]]></description>
+        <Point>
+            <coordinates>6.354241999999999,46.9041039,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Cours Landrivon, 13110 Port-de-Bouc, France]]></description>
+        <Point>
+            <coordinates>4.986041999999998,43.405003,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Saint-Louis, France]]></description>
+        <Point>
+            <coordinates>7.5639340000000175,47.5859949,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[Chemin de Clavary, 06130 Grasse, France]]></description>
+        <Point>
+            <coordinates>6.9304180000000315,43.61901,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #54</name>
+        <description><![CDATA[52200 Langres, France]]></description>
+        <Point>
+            <coordinates>5.334296999999992,47.86683,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Meaux, France]]></description>
+        <Point>
+            <coordinates>2.8884656999999834,48.9562018,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #56</name>
+        <description><![CDATA[858 Rue des Docteurs Devillers, 02120 Guise, France]]></description>
+        <Point>
+            <coordinates>3.6405492000000095,49.9024975,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[24 Quai Nicolas Sadi Carnot, 66000 Perpignan, France]]></description>
+        <Point>
+            <coordinates>2.8935160999999425,42.70008490000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #58</name>
+        <description><![CDATA[4 Rue Viala, 84000 Avignon, France]]></description>
+        <Point>
+            <coordinates>4.80586500000004,43.9480005,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[28200 Châteaudun, France]]></description>
+        <Point>
+            <coordinates>1.32769600000006,48.070369,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #60</name>
+        <description><![CDATA[Avenue Léon Jouhaux, 39100 Dole, France]]></description>
+        <Point>
+            <coordinates>5.479056000000014,47.0858289,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[16 Rue de Pontoise, 78100 Saint-Germain-en-Laye, France]]></description>
+        <Point>
+            <coordinates>2.0941815999999562,48.8989295,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[8 Rue du Moulin, 57560 Abreschviller, France]]></description>
+        <Point>
+            <coordinates>7.094198300000016,48.6358768,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Rambouillet, France]]></description>
+        <Point>
+            <coordinates>1.8290789999999788,48.643868,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Place Louis XIV, 64500 Saint-Jean-de-Luz, France]]></description>
+        <Point>
+            <coordinates>-1.6641282000000501,43.3876347,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Saint-André-lez-Lille, France]]></description>
+        <Point>
+            <coordinates>3.0477359999999862,50.660979,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[40 Avenue de Flandre, 59170 Croix, France]]></description>
+        <Point>
+            <coordinates>3.15091689999997,50.6653734,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[5 Quai Dumorey, 21700 Nuits-Saint-Georges, France]]></description>
+        <Point>
+            <coordinates>4.9444301999999425,47.13685539999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Boulevard Félix Amiot, 50100 Cherbourg-Octeville, France]]></description>
+        <Point>
+            <coordinates>-1.6102175999999417,49.6425281,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Place Gilbert Henry, 59172 Rœulx, France]]></description>
+        <Point>
+            <coordinates>3.33450449999998,50.3069909,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[70 Rue Grande, 14290 Orbec, France]]></description>
+        <Point>
+            <coordinates>0.4075847999999951,49.0209071,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[59 Rue Pasteur, 77170 Brie-Comte-Robert, France]]></description>
+        <Point>
+            <coordinates>2.6189567000000125,48.6925079,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[11 Rue Viêt, 72400 La Ferté-Bernard, France]]></description>
+        <Point>
+            <coordinates>0.6557771999999886,48.1862064,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Limoux, France]]></description>
+        <Point>
+            <coordinates>2.2181419999999434,43.053289,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[132 Route de la Mairie, 74920 Combloux, France]]></description>
+        <Point>
+            <coordinates>6.641601400000013,45.89654650000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[2 Avenue du Général de Gaulle, 36130 Déols, France]]></description>
+        <Point>
+            <coordinates>1.700723000000039,46.825904,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Avenue Professeur Félix Trombe, 66120 Font-Romeu-Odeillo-Via, France]]></description>
+        <Point>
+            <coordinates>2.034997999999973,42.49556,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[La Clusaz, France]]></description>
+        <Point>
+            <coordinates>6.42335300000002,45.904427,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[Place de Stalingrad, 38220 Vizille, France]]></description>
+        <Point>
+            <coordinates>5.77292250000005,45.077212,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Via del Tritone, 132, 00187 Roma, Italie]]></description>
+        <Point>
+            <coordinates>12.48718800000006,41.903167,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[59800 Lille, France]]></description>
+        <Point>
+            <coordinates>3.080825300000015,50.6335574,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[Annonay, France]]></description>
+        <Point>
+            <coordinates>4.667349000000058,45.239403,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[470 Rue Charles Heno, 62180 Colline-Beaumont, France]]></description>
+        <Point>
+            <coordinates>1.6808382000000393,50.33982719999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[9 Rue du Maréchal Leclerc, 62180 Waben, France]]></description>
+        <Point>
+            <coordinates>1.6527634999999918,50.3794912,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #84</name>
+        <description><![CDATA[5 Place de la Pergola, 31400 Toulouse, France]]></description>
+        <Point>
+            <coordinates>1.4732957999999599,43.5849753,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[18 Rue de la République, 26400 Crest, France]]></description>
+        <Point>
+            <coordinates>5.024154400000043,44.728486,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[30 Rue de l'Hôtel de ville, 54240 Jœuf, France]]></description>
+        <Point>
+            <coordinates>6.006254099999978,49.22811859999999,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[1 Rue du Fort, 78250 Meulan-en-Yvelines, France]]></description>
+        <Point>
+            <coordinates>1.9100263000000268,49.0032305,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[5 Rue de Fougères, 35133 Billé, France]]></description>
+        <Point>
+            <coordinates>-1.2456210000000283,48.2861767,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[Pont-à-Mousson, France]]></description>
+        <Point>
+            <coordinates>6.054867999999942,48.90329,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Sainte-Geneviève-des-Bois, France]]></description>
+        <Point>
+            <coordinates>2.3259213000000045,48.64084159999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[1 Place de la Mairie, 82700 Montech, France]]></description>
+        <Point>
+            <coordinates>1.2286129999999957,43.9572789,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[26 Rue des Deux Sources, 17100 Vénérand, France]]></description>
+        <Point>
+            <coordinates>-0.5561715000000049,45.793285,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[45 Rue Georges Herrewyn, 78270 Bonnières-sur-Seine, France]]></description>
+        <Point>
+            <coordinates>1.5811564000000544,49.0376141,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[Place du Gén de Gaulle, 64170 Artix, France]]></description>
+        <Point>
+            <coordinates>-0.5724722999999585,43.3973208,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[Avenue Barral des Beaux, 84410 Bédoin, France]]></description>
+        <Point>
+            <coordinates>5.180336399999987,44.1231905,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[Rue Eugène Imbert, 84210 La Roque-sur-Pernes, France]]></description>
+        <Point>
+            <coordinates>5.107172999999989,43.978981,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Modène, France]]></description>
+        <Point>
+            <coordinates>5.123037000000068,44.103292,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[Saint-Hippolyte-le-Graveyron, France]]></description>
+        <Point>
+            <coordinates>5.075374000000011,44.121467,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[75 Rue ar Véret, 29100 Douarnenez, France]]></description>
+        <Point>
+            <coordinates>-4.336221000000023,48.0893058,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #17</name>
+        <description><![CDATA[59 Rue de Saintonge, 17800 Saint-Sever-de-Saintonge, France]]></description>
+        <Point>
+            <coordinates>-0.5164541999999983,45.6975282,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #18</name>
+        <description><![CDATA[Saint-Michel, France]]></description>
+        <Point>
+            <coordinates>0.10668839999993907,45.638317,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[80 Avenue de Pontaillac, 17200 Royan, France]]></description>
+        <Point>
+            <coordinates>-1.042797299999961,45.6233261,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[1 Rue du Scorff, 35700 Rennes, France]]></description>
+        <Point>
+            <coordinates>-1.673313300000018,48.1317604,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #21</name>
+        <description><![CDATA[Le Havre, France]]></description>
+        <Point>
+            <coordinates>0.10792900000001282,49.49437,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #22</name>
+        <description><![CDATA[84 Avenue Jean Jaurès, 77420 Champs-sur-Marne, France]]></description>
+        <Point>
+            <coordinates>2.592171300000018,48.8540816,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Rue de l'Ancienne Mairie, 61000 Alençon, France]]></description>
+        <Point>
+            <coordinates>0.08526600000004692,48.428876,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Courbevoie, France]]></description>
+        <Point>
+            <coordinates>2.2592899999999645,48.900552,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[16 Rue Aujame, 03600 Commentry, France]]></description>
+        <Point>
+            <coordinates>2.7375965999999607,46.29422719999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[1 Place du Forum, 73000 Chambéry, France]]></description>
+        <Point>
+            <coordinates>5.918560999999954,45.5925144,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[1 Place du Forum, 73000 Chambéry, France]]></description>
+        <Point>
+            <coordinates>5.918560999999954,45.5925144,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[2 Place Lafayette, 43100 Brioude, France]]></description>
+        <Point>
+            <coordinates>3.385889200000065,45.2941665,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[1 Place de l'Hôpital, 67000 Strasbourg, France]]></description>
+        <Point>
+            <coordinates>7.748100499999964,48.577308,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Boulevard Gambetta, 76000 Rouen, France]]></description>
+        <Point>
+            <coordinates>1.1075118999999631,49.4386551,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Valenciennes, France]]></description>
+        <Point>
+            <coordinates>3.5183319999999867,50.357113,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[1 Rue Trianon, 45310 Patay, France]]></description>
+        <Point>
+            <coordinates>1.6943426999999929,48.047748,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[5 Rue Anne de Ticheville, 27300 Bernay, France]]></description>
+        <Point>
+            <coordinates>0.590056499999946,49.0902247,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[40 Rue de Romillé, 35360 Montauban-de-Bretagne, France]]></description>
+        <Point>
+            <coordinates>-2.0436032999999725,48.19851080000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[26 Avenue Charles de Gaulle, 91150 Étampes, France]]></description>
+        <Point>
+            <coordinates>2.150808600000005,48.4211599,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Centre Hospitalier d'Agen, Route de Villeneuve sur Lot, Saint-Esprit, 47000 Agen, France]]></description>
+        <Point>
+            <coordinates>0.6352229999999963,44.21711,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[Saint-Jean-de-Folleville, France]]></description>
+        <Point>
+            <coordinates>0.5056968999999754,49.522918,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[24 Rue Auguste Carré, 21500 Montbard, France]]></description>
+        <Point>
+            <coordinates>4.34089270000004,47.6242218,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[14 Rue de Mulhouse, 90000 Belfort, France]]></description>
+        <Point>
+            <coordinates>6.853077100000064,47.6436722,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #18</name>
+        <description><![CDATA[35 Quai André Citroën, 75015 Paris, France]]></description>
+        <Point>
+            <coordinates>2.2794503000000077,48.8473398,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #19</name>
+        <description><![CDATA[2 Rue de la Source de Clermont, 74500 Évian-les-Bains, France]]></description>
+        <Point>
+            <coordinates>6.5909196000000065,46.4011204,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #162</name>
+        <description><![CDATA[Place du 11 Novembre, 83250 La Londe-les-Maures, France]]></description>
+        <Point>
+            <coordinates>6.235683699999981,43.1381695,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #163</name>
+        <description><![CDATA[Avenue Pierre de la Bouexière, 44350 Guérande, France]]></description>
+        <Point>
+            <coordinates>-2.4250061000000187,47.3233986,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Bibliothèque, 1 Rue Vincent Van Gogh, 13180 Gignac-la-Nerthe, France]]></description>
+        <Point>
+            <coordinates>5.230984100000001,43.3876439,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #165</name>
+        <description><![CDATA[21 Avenue Jules Rimet, 93200 Saint-Denis, France]]></description>
+        <Point>
+            <coordinates>2.362538900000004,48.9245644,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[20 Rue Jules Ferry, 87410 Le Palais-sur-Vienne, France]]></description>
+        <Point>
+            <coordinates>1.3228960000000143,45.8660734,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Briey, France]]></description>
+        <Point>
+            <coordinates>5.9366770000000315,49.248466,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Avenue du Grand Jardin, 84330 Caromb, France]]></description>
+        <Point>
+            <coordinates>5.1061939999999595,44.110876,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[40 Rue d'Armagnac, 33800 Bordeaux, France]]></description>
+        <Point>
+            <coordinates>-0.5523094999999785,44.8218813,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[1 Cours Scellier, 60000 Beauvais, France]]></description>
+        <Point>
+            <coordinates>2.0775658999999678,49.4328034,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[La Mure, France]]></description>
+        <Point>
+            <coordinates>5.784528000000023,44.906521,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[2 Rue de la Crouzette, 34170 Castelnau-le-Lez, France]]></description>
+        <Point>
+            <coordinates>3.897356299999956,43.6330111,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[18 Avenue du 8 Mai 1945, 03100 Montluçon, France]]></description>
+        <Point>
+            <coordinates>2.6083865000000515,46.3427103,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Belfort, France]]></description>
+        <Point>
+            <coordinates>6.863848999999959,47.63967400000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[13 Route de Krafft, 67150 Erstein, France]]></description>
+        <Point>
+            <coordinates>7.684979800000065,48.4297584,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Boulevard Denière, 03200 Vichy, France]]></description>
+        <Point>
+            <coordinates>3.434224800000038,46.127375,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[Saint-Brieuc, France]]></description>
+        <Point>
+            <coordinates>-2.7658350000000382,48.51418,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Zone Industrielle la Lezarde, Le Lamentin, Martinique]]></description>
+        <Point>
+            <coordinates>-61.00941449999999,14.6059971,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[Forcalquier, France]]></description>
+        <Point>
+            <coordinates>5.780711999999994,43.95993300000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[Place de la Mairie, 29910 Trégunc, France]]></description>
+        <Point>
+            <coordinates>-3.8520565000000033,47.8550082,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[3 Place de la Liberté, 83340 Le Luc, France]]></description>
+        <Point>
+            <coordinates>6.313197899999977,43.3945253,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[28 Rue de Charlieu, 42300 Roanne, France]]></description>
+        <Point>
+            <coordinates>4.075630899999965,46.0415916,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[78 Boulevard des Libérateurs, 13011 Marseille, France]]></description>
+        <Point>
+            <coordinates>5.462141400000064,43.3010868,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Place de l'Arche Guédon, 77200 Torcy, France]]></description>
+        <Point>
+            <coordinates>2.635492500000055,48.8514473,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Place de la Mairie, 31700 Beauzelle, France]]></description>
+        <Point>
+            <coordinates>1.3794252000000142,43.6684849,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #21</name>
+        <description><![CDATA[12 Rue de l'Abani, 57535 Marange-Silvange, France]]></description>
+        <Point>
+            <coordinates>6.114295399999946,49.2145277,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[2 Rue des Bastions, 50100 Cherbourg-Octeville, France]]></description>
+        <Point>
+            <coordinates>-1.6271577999999636,49.6423676,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[4 Rue Gabriel Péri, 77120 Coulommiers, France]]></description>
+        <Point>
+            <coordinates>3.095943000000034,48.8272257,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[3 Avenue de la Dame, 74200 Thonon-les-Bains, France]]></description>
+        <Point>
+            <coordinates>6.4779892000000245,46.3611368,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[10 Boulevard Beauvallet, 45300 Pithiviers, France]]></description>
+        <Point>
+            <coordinates>2.2505178000000114,48.1701705,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[20 Boulevard Carabacel, 06000 Nice, France]]></description>
+        <Point>
+            <coordinates>7.275481000000013,43.703638,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[12 Rue Blaise Pascal, 37000 Tours, France]]></description>
+        <Point>
+            <coordinates>0.6929188000000295,47.3887212,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[1 Place de l'Église, 74120 Megève, France]]></description>
+        <Point>
+            <coordinates>6.6180314000000635,45.8569679,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Sarreguemines, France]]></description>
+        <Point>
+            <coordinates>7.070862000000034,49.106031,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Niort, France]]></description>
+        <Point>
+            <coordinates>-0.4647770000000264,46.323716,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Centre Hospitalier Fleyriat, 900 Route de Paris, 01012 Bourg-en-Bresse, France]]></description>
+        <Point>
+            <coordinates>5.209161399999971,46.222492,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[Place Michel Reglade, 33320 Le Taillan-Médoc, France]]></description>
+        <Point>
+            <coordinates>-0.6692157999999608,44.9045031,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[240 Avenue de Saint-Lambert, 83600 Fréjus, France]]></description>
+        <Point>
+            <coordinates>6.753148300000021,43.4389846,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[Korenmarkt 10, 8870 Izegem, Belgique]]></description>
+        <Point>
+            <coordinates>3.2144058999999743,50.92046269999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[Place Roi Albert Premier, 5580 Rochefort, Belgique]]></description>
+        <Point>
+            <coordinates>5.2234375000000455,50.158479,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Gourbera, France]]></description>
+        <Point>
+            <coordinates>-1.0486720000000105,43.804348,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[32 Rue de la République, 76170 Lillebonne, France]]></description>
+        <Point>
+            <coordinates>0.5365013000000545,49.5157932,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #203</name>
+        <description><![CDATA[35 Rue Dailly, 92210 Saint-Cloud, France]]></description>
+        <Point>
+            <coordinates>2.218113799999969,48.84481539999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[9 Rue des 3 Banquets, 31000 Toulouse, France]]></description>
+        <Point>
+            <coordinates>1.4479576999999608,43.5991133,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Mairie, Place du Marché, 67210 Obernai, France]]></description>
+        <Point>
+            <coordinates>7.481889300000034,48.4621995,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[1 Rue du Général Ferrié, 53000 Laval, France]]></description>
+        <Point>
+            <coordinates>-0.789371200000005,48.0806559,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[85 Rue de Kergéstin, 29000 Quimper, France]]></description>
+        <Point>
+            <coordinates>-4.12968699999999,47.9824482,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Mairie, Place du Champ de Mars, 71400 Autun, France]]></description>
+        <Point>
+            <coordinates>4.29904769999996,46.9508315,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[Aéroport International du Touquet - Côte d'Opale (LTQ), 62520 Le Touquet-Paris-Plage, France]]></description>
+        <Point>
+            <coordinates>1.6203027999999904,50.5129515,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[58 Rue Paul Morel, 70000 Vesoul, France]]></description>
+        <Point>
+            <coordinates>6.153982499999984,47.6197716,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Pau, France]]></description>
+        <Point>
+            <coordinates>-0.3707970000000387,43.2951,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[52 Rue de Bassano, 75008 Paris, France]]></description>
+        <Point>
+            <coordinates>2.29986370000006,48.8709596,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[19 Rue Eugène Messmer, 53000 Laval, France]]></description>
+        <Point>
+            <coordinates>-0.7682889000000159,48.0562592,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[3 Rue de l'Avant Garde, 54340 Pompey, France]]></description>
+        <Point>
+            <coordinates>6.119553699999983,48.7654879,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[16 Rue Georges Bizet, 26000 Valence, France]]></description>
+        <Point>
+            <coordinates>4.923110599999973,44.9287006,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Saint-Gilles-Croix-de-Vie, France]]></description>
+        <Point>
+            <coordinates>-1.9445289999999886,46.69777699999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[Avenue des Monts du Soir, 42600 Montbrison, France]]></description>
+        <Point>
+            <coordinates>4.0476072999999815,45.6129262,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Centre Hospitalier de Montfavet, 2 Avenue de la Pinède, 84143 Avignon, France]]></description>
+        <Point>
+            <coordinates>4.877890100000059,43.924887,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[163 Rue de la Meuse, 57680 Gorze, France]]></description>
+        <Point>
+            <coordinates>5.997220999999968,49.054084,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Mairie, 20 Quai Saturnin Fabre, 83500 La Seyne-sur-Mer, France]]></description>
+        <Point>
+            <coordinates>5.881211300000018,43.1020792,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[81 Avenue Adolphe Schneider, 92140 Clamart, France]]></description>
+        <Point>
+            <coordinates>2.2504417000000103,48.80682820000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #19</name>
+        <description><![CDATA[06220 Vallauris, France]]></description>
+        <Point>
+            <coordinates>7.055221800000027,43.5781173,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Saint-Witz, France]]></description>
+        <Point>
+            <coordinates>2.5670860000000175,49.091281,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Place Jean Jaurès, 59450 Sin-le-Noble, France]]></description>
+        <Point>
+            <coordinates>3.113450999999941,50.36463800000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[3 Boulevard Docteur Verlhac, 19100 Brive-la-Gaillarde, France]]></description>
+        <Point>
+            <coordinates>1.5365395000000035,45.1682924,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Route Royale, 20600 Bastia, France]]></description>
+        <Point>
+            <coordinates>9.432217400000013,42.6781385,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #24</name>
+        <description><![CDATA[281 Rue Pasteur, 39220 Les Rousses, France]]></description>
+        <Point>
+            <coordinates>6.060338399999978,46.4849487,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Cergy, France]]></description>
+        <Point>
+            <coordinates>2.0603250000000344,49.03561699999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[17 Place de l'Hôtel de ville, 38200 Vienne, France]]></description>
+        <Point>
+            <coordinates>4.875340800000004,45.5258304,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[75 Rue Pierre Marin, 91270 Vigneux-sur-Seine, France]]></description>
+        <Point>
+            <coordinates>2.4169409999999516,48.7001125,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #28</name>
+        <description><![CDATA[124 Rue de Marzy, 58000 Nevers, France]]></description>
+        <Point>
+            <coordinates>3.1207474000000275,46.98823729999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Place Jules Ferry, 88100 Saint-Dié-des-Vosges, France]]></description>
+        <Point>
+            <coordinates>6.9470549999999776,48.286911,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[100 Rue Léon Cladel, 82000 Montauban, France]]></description>
+        <Point>
+            <coordinates>1.3517563999999993,44.0228025,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[55 Rue de la République, 62450 Bapaume, France]]></description>
+        <Point>
+            <coordinates>2.8522462999999334,50.1021588,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Montgiscard, France]]></description>
+        <Point>
+            <coordinates>1.5736729999999852,43.458103,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[8 Avenue Georges Pompidou, 30900 Nîmes, France]]></description>
+        <Point>
+            <coordinates>4.350358300000039,43.83137139999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[2 Avenue Saint-Exupéry, 71300 Montceau-les-Mines, France]]></description>
+        <Point>
+            <coordinates>4.368833799999948,46.6796668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[207 Avenue Julien Fabre, 13300 Salon-de-Provence, France]]></description>
+        <Point>
+            <coordinates>5.102558700000031,43.6395876,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Mornant, France]]></description>
+        <Point>
+            <coordinates>4.673029199999974,45.619722,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[715 Rue Henri Dunant, 50000 Saint-Lô, France]]></description>
+        <Point>
+            <coordinates>-1.1087944999999308,49.1066325,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[Place Charles Ourgaut, 31340 Villemur-sur-Tarn, France]]></description>
+        <Point>
+            <coordinates>1.5039153999999826,43.8650196,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #242</name>
+        <description><![CDATA[1 Rue de l'Observatoire, 91260 Juvisy-sur-Orge, France]]></description>
+        <Point>
+            <coordinates>2.3710810000000038,48.69275580000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #244</name>
+        <description><![CDATA[6 Rue Massenet, 38400 Saint-Martin-d'Hères, France]]></description>
+        <Point>
+            <coordinates>5.761300600000027,45.1779813,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[6 Rue Massenet, 38400 Saint-Martin-d'Hères, France]]></description>
+        <Point>
+            <coordinates>5.761300600000027,45.1779813,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[64 Route de Lisieux, 27500 Tourville-sur-Pont-Audemer, France]]></description>
+        <Point>
+            <coordinates>0.514708799999994,49.3456357,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Boulevard de Verdun, 50500 Carentan, France]]></description>
+        <Point>
+            <coordinates>-1.240340500000002,49.3022178,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[86 Quai de la République, 85800 Saint-Gilles-Croix-de-Vie, France]]></description>
+        <Point>
+            <coordinates>-1.9446138000000701,46.6975354,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[1 Rue René Cassin, 51350 Cormontreuil, France]]></description>
+        <Point>
+            <coordinates>4.057825699999967,49.2189372,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[Marseille, France]]></description>
+        <Point>
+            <coordinates>5.369779999999992,43.296482,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[4 Rue Gabriel Plançon, 25000 Besançon, France]]></description>
+        <Point>
+            <coordinates>6.015278299999977,47.2342631,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[3 Quai Ceineray, 44000 Nantes, France]]></description>
+        <Point>
+            <coordinates>-1.552462500000047,47.2208751,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[29 Avenue des Alliés, 13360 Roquevaire, France]]></description>
+        <Point>
+            <coordinates>5.60362090000001,43.3484512,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[Avenue de la Préfecture, 35000 Rennes, France]]></description>
+        <Point>
+            <coordinates>-1.6931130000000394,48.1266633,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[Rue Henri Sainte-Claire Deville, 83100 Toulon, France]]></description>
+        <Point>
+            <coordinates>5.977863299999967,43.1275655,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #12</name>
+        <description><![CDATA[Centre Administratif André Benech, 191 Avenue du Doyen Gaston Giraud, 34295 Montpellier, France]]></description>
+        <Point>
+            <coordinates>3.854092700000024,43.6303315,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #13</name>
+        <description><![CDATA[19 Avenue Paul Ribeyre, 07600 Vals-les-Bains, France]]></description>
+        <Point>
+            <coordinates>4.369276799999966,44.65613339999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #14</name>
+        <description><![CDATA[44 Boulevard d'Angleterre, 85000 La Roche-sur-Yon, France]]></description>
+        <Point>
+            <coordinates>-1.4275743000000602,46.6751836,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[8 Place Aristide Briand, 76500 Elbeuf, France]]></description>
+        <Point>
+            <coordinates>1.0065515999999661,49.2910141,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[Avignon, France]]></description>
+        <Point>
+            <coordinates>4.805527999999981,43.94931700000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Pont-de-Vaux, France]]></description>
+        <Point>
+            <coordinates>4.938149000000067,46.43027800000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #18</name>
+        <description><![CDATA[26 Rue Ballu, 75009 Paris, France]]></description>
+        <Point>
+            <coordinates>2.3297549000000117,48.8822071,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #19</name>
+        <description><![CDATA[2 Rue Docteur Simon Pietri, 04000 Digne-les-Bains, France]]></description>
+        <Point>
+            <coordinates>6.23738579999997,44.09047,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[32 Rue de la Fontaine des Vaux, 78860 Saint-Nom-la-Bretèche, France]]></description>
+        <Point>
+            <coordinates>2.020692899999972,48.8597695,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[45 Boulevard d'Alsace Lorraine, 64000 Pau, France]]></description>
+        <Point>
+            <coordinates>-0.3657577000000174,43.3033941,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[30 Avenue Marc Laurent, 78370 Plaisir, France]]></description>
+        <Point>
+            <coordinates>1.9458935999999767,48.8245305,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[28 Rue Zuber, 68170 Rixheim, France]]></description>
+        <Point>
+            <coordinates>7.396856800000023,47.7451458,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Tervuursesteenweg 178, 3060 Bertem, Belgique]]></description>
+        <Point>
+            <coordinates>4.630381700000044,50.8658636,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[Waversesteenweg 13, 2820 Bonheiden, Belgique]]></description>
+        <Point>
+            <coordinates>4.549181699999963,51.0249519,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[Boudewijnstraat 4, 2280 Grobbendonk, Belgique]]></description>
+        <Point>
+            <coordinates>4.738544499999989,51.1904757,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Antwerpsesteenweg 246, 2390 Malle, Belgique]]></description>
+        <Point>
+            <coordinates>4.6933742999999595,51.2968349,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Route de Foix, 09130 Artigat, France]]></description>
+        <Point>
+            <coordinates>1.440420300000028,43.1332962,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[81 Rue du Moulin des Murailles, 27130 Verneuil-sur-Avre, France]]></description>
+        <Point>
+            <coordinates>0.9214223000000175,48.7393429,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[Parc Naturel Régional Scarpe-Escaut, 10 Rue Henri Durre, 59178 Hasnon, France]]></description>
+        <Point>
+            <coordinates>3.386770100000035,50.4241293,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Rue Jean Jaurès, 59198 Haspres, France]]></description>
+        <Point>
+            <coordinates>3.4160208000000694,50.2579074,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Mairie, 110 Rue Charles Basquin, 59174 La Sentinelle, France]]></description>
+        <Point>
+            <coordinates>3.4854162000000315,50.3492489,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Châteaurenard, France]]></description>
+        <Point>
+            <coordinates>4.855684999999994,43.8820059,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #15</name>
+        <description><![CDATA[300 Avenue du 8 Mai 1945, 13630 Eyragues, France]]></description>
+        <Point>
+            <coordinates>4.848338699999999,43.8377167,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #16</name>
+        <description><![CDATA[18 Avenue de Saint-Andiol, 13440 Cabannes, France]]></description>
+        <Point>
+            <coordinates>4.951216199999976,43.8585354,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[12 Boulevard Pasteur, 13250 Saint-Chamas, France]]></description>
+        <Point>
+            <coordinates>5.035997700000053,43.5509065,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Avenue des Alliés, 13360 Roquevaire, France]]></description>
+        <Point>
+            <coordinates>5.603611499999943,43.3486767,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[42 Avenue des Cardalines, 13800 Istres, France]]></description>
+        <Point>
+            <coordinates>4.992452700000058,43.4952206,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Maillane, France]]></description>
+        <Point>
+            <coordinates>4.782098000000019,43.832349,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #5</name>
+        <description><![CDATA[Rue de Figueras, 13700 Marignane, France]]></description>
+        <Point>
+            <coordinates>5.2094180999999935,43.4174722,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[5 Route de Caireval, 13410 Lambesc, France]]></description>
+        <Point>
+            <coordinates>5.264209899999969,43.6546848,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[75 Rue Haute d'Aulnay, 41500 Mer, France]]></description>
+        <Point>
+            <coordinates>1.500991200000044,47.7109935,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[8 Avenue de Sologne, 41700 Contres, France]]></description>
+        <Point>
+            <coordinates>1.4292080999999826,47.4275059,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[14 Rue des Bois, 41400 Montrichard, France]]></description>
+        <Point>
+            <coordinates>1.1787686999999778,47.3473882,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[Place de la Paix, 41130 Selles-sur-Cher, France]]></description>
+        <Point>
+            <coordinates>1.5539509999999837,47.27545,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #11</name>
+        <description><![CDATA[56 Rue Alphonse Saunier, 41370 Marchenoir, France]]></description>
+        <Point>
+            <coordinates>1.3930786999999327,47.8247303,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[31 Rue de Candy, 41250 Bracieux, France]]></description>
+        <Point>
+            <coordinates>1.5514997000000221,47.5491648,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[25 Rue Hilaire Noyer, 41160 Morée, France]]></description>
+        <Point>
+            <coordinates>1.2336334999999963,47.9029939,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #292</name>
+        <description><![CDATA[7 Place du Maréchal Juin, 41360 Savigny-sur-Braye, France]]></description>
+        <Point>
+            <coordinates>0.8062256000000616,47.8789254,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[8 Rue de la Fleuriette, 41160 La ville-aux-Clercs, France]]></description>
+        <Point>
+            <coordinates>1.0812276000000338,47.9202526,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #294</name>
+        <description><![CDATA[7 Rue Henri Mérillon, 41270 Droué, France]]></description>
+        <Point>
+            <coordinates>1.0678548999999293,48.040073,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[11 Rue Leroy, 41170 Mondoubleau, France]]></description>
+        <Point>
+            <coordinates>0.8973261999999522,47.9818057,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[5 Rue des Mées, 41220 Saint-Laurent-Nouan, France]]></description>
+        <Point>
+            <coordinates>1.610357600000043,47.7143509,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Route de Neung sur Beuvron, 41250 Neuvy, France]]></description>
+        <Point>
+            <coordinates>1.6100916000000325,47.5627237,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[34 Rue Jules Ferry, 41310 Saint-Amand-Longpré, France]]></description>
+        <Point>
+            <coordinates>1.0132785000000695,47.6902586,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #299</name>
+        <description><![CDATA[18 Rue de la Fontaine de Bury, 41190 Chambon-sur-Cisse, France]]></description>
+        <Point>
+            <coordinates>1.2056334999999763,47.5651462,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[6 Rue du Petit Bois, 41400 Pontlevoy, France]]></description>
+        <Point>
+            <coordinates>1.260426700000039,47.3896385,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #302</name>
+        <description><![CDATA[Château Saugeron, 33390 Blaye, France]]></description>
+        <Point>
+            <coordinates>-0.6513039999999819,45.134636,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[11 Place Frédéric Ozanam, 33200 Bordeaux, France]]></description>
+        <Point>
+            <coordinates>-0.6140585000000556,44.8498704,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[Largo San Giorgio, 12, 33170 Pordenone PN, Italie]]></description>
+        <Point>
+            <coordinates>12.658349600000065,45.9602674,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[Via San Pietro Martire, 6, 42121 Reggio Emilia RE, Italie]]></description>
+        <Point>
+            <coordinates>10.628865399999995,44.6978961,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Rue du Docteur Schweitzer, 17000 La Rochelle, France]]></description>
+        <Point>
+            <coordinates>-1.1442250000000058,46.15828519999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[1 Rue des Frères Payraudeau, 85310 La Chaize-le-Vicomte, France]]></description>
+        <Point>
+            <coordinates>-1.2964547999999922,46.6728481,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[5 Place de l'Église, 44460 Avessac, France]]></description>
+        <Point>
+            <coordinates>-1.9893712000000505,47.6539875,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[Avenue Achille Peretti, 92200 Neuilly-sur-Seine, France]]></description>
+        <Point>
+            <coordinates>2.2674385000000257,48.88482339999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Avenue Achille Peretti, 92200 Neuilly-sur-Seine, France]]></description>
+        <Point>
+            <coordinates>2.2674385000000257,48.88482339999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[4 Rue du Commandant Charcot, 56000 Vannes, France]]></description>
+        <Point>
+            <coordinates>-2.7800756999999976,47.6493142,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[7 Rue Frédéric Valette, 66000 Perpignan, France]]></description>
+        <Point>
+            <coordinates>2.880284399999937,42.6979899,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Montpellier, France]]></description>
+        <Point>
+            <coordinates>3.8767159999999876,43.610769,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[6 Place Jules Ferry, 76600 Le Havre, France]]></description>
+        <Point>
+            <coordinates>0.11292409999998654,49.49131000000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #3</name>
+        <description><![CDATA[68 Boulevard Faidherbe, 62000 Arras, France]]></description>
+        <Point>
+            <coordinates>2.7828292000000374,50.2915185,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[33 Rue du Faubourg de Bourgogne, 45000 Orléans, France]]></description>
+        <Point>
+            <coordinates>1.9231955000000198,47.9020687,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[31450 Montlaur, France]]></description>
+        <Point>
+            <coordinates>1.5719000000000278,43.4892,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #6</name>
+        <description><![CDATA[11 Avenue Alphonse Louis, 40990 Angoumé, France]]></description>
+        <Point>
+            <coordinates>-1.1356232000000546,43.69091270000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #7</name>
+        <description><![CDATA[Rue de la Croix Rose, 31670 Labège, France]]></description>
+        <Point>
+            <coordinates>1.5300807999999506,43.5308463,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #8</name>
+        <description><![CDATA[1 Place de la Mairie, 29300 Arzano, France]]></description>
+        <Point>
+            <coordinates>-3.440387200000032,47.9013702,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #9</name>
+        <description><![CDATA[Locunolé, France]]></description>
+        <Point>
+            <coordinates>-3.4784409999999752,47.936372,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #10</name>
+        <description><![CDATA[7 Place de l'Église, 29310 Querrien, France]]></description>
+        <Point>
+            <coordinates>-3.5374400000000605,47.95942890000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Place de l'Église, 29300 Rédéné, France]]></description>
+        <Point>
+            <coordinates>-3.4614199999999755,47.860171,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[2 Place de la Libération, 29390 Scaër, France]]></description>
+        <Point>
+            <coordinates>-3.702048800000057,48.0267121,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 42300 Roanne, France]]></description>
+        <Point>
+            <coordinates>4.072912999999971,46.03411999999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #4</name>
+        <description><![CDATA[Rue Mahatma Gandhi, 13090 Aix-en-Provence, France]]></description>
+        <Point>
+            <coordinates>5.437409699999989,43.5115412,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[11 Rue du Général de Gaulle, 78120 Rambouillet, France]]></description>
+        <Point>
+            <coordinates>1.8198594000000412,48.6455022,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #2</name>
+        <description><![CDATA[17 Rue Claude Monet, 93400 Saint-Ouen, France]]></description>
+        <Point>
+            <coordinates>2.339378600000032,48.9114995,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[55 Boulevard Hippolyte Fauré, 51000 Châlons-en-Champagne, France]]></description>
+        <Point>
+            <coordinates>4.373488800000018,48.9549291,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[1 Rue du Pont Moreau, 57000 Metz, France]]></description>
+        <Point>
+            <coordinates>6.175880199999938,49.1227978,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #1</name>
+        <description><![CDATA[21 Avenue Berthelot, 95300 Pontoise, France]]></description>
+        <Point>
+            <coordinates>2.0914950999999746,49.043533,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #333</name>
+        <description><![CDATA[3 Avenue Robert Schuman, 88000 Épinal, France]]></description>
+        <Point>
+            <coordinates>6.454703800000061,48.1786853,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #335</name>
+        <description><![CDATA[Clermont-l'Hérault, France]]></description>
+        <Point>
+            <coordinates>3.4294949999999744,43.62759,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #340</name>
+        <description><![CDATA[28 Avenue Gambetta, 15000 Aurillac, France]]></description>
+        <Point>
+            <coordinates>2.4459807000000637,44.9270495,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #348</name>
+        <description><![CDATA[Rue Pasteur, 95180 Menucourt, France]]></description>
+        <Point>
+            <coordinates>1.983744500000057,49.0248516,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #353</name>
+        <description><![CDATA[Millau, France]]></description>
+        <Point>
+            <coordinates>3.077801000000022,44.100575,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #356</name>
+        <description><![CDATA[27 Boulevard de la Corderie, 87000 Limoges, France]]></description>
+        <Point>
+            <coordinates>1.264179199999944,45.8288543,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #358</name>
+        <description><![CDATA[26 Rue Camille Pariat, 42110 Feurs, France]]></description>
+        <Point>
+            <coordinates>4.220846199999983,45.7462272,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #361</name>
+        <description><![CDATA[Le Bourg, 42560 Saint-Jean-Soleymieux, France]]></description>
+        <Point>
+            <coordinates>4.016968700000007,45.49564580000001,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #364</name>
+        <description><![CDATA[Rue de la Loire, 42210 Montrond-les-Bains, France]]></description>
+        <Point>
+            <coordinates>4.226537600000029,45.64654460000001,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #366</name>
+        <description><![CDATA[231 Avenue de Parme, 01000 Bourg-en-Bresse, France]]></description>
+        <Point>
+            <coordinates>5.2474004000000605,46.2175292,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #369</name>
+        <description><![CDATA[107 Grand Rue, 57970 Yutz, France]]></description>
+        <Point>
+            <coordinates>6.192350199999964,49.3613381,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #370</name>
+        <description><![CDATA[Trappes, France]]></description>
+        <Point>
+            <coordinates>2.0018440000000055,48.776731,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #372</name>
+        <description><![CDATA[1 Place Ducale, 08000 Charleville-Mézières, France]]></description>
+        <Point>
+            <coordinates>4.7203113000000485,49.7739156,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #373</name>
+        <description><![CDATA[25 Rue Lénine, 93170 Bagnolet, France]]></description>
+        <Point>
+            <coordinates>2.421633100000008,48.8698498,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #374</name>
+        <description><![CDATA[57 Avenue Pierre Semard, 06130 Grasse, France]]></description>
+        <Point>
+            <coordinates>6.93105300000002,43.65664899999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #375</name>
+        <description><![CDATA[17 Rue Molière, 93100 Montreuil, France]]></description>
+        <Point>
+            <coordinates>2.4417000999999345,48.8582392,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #377</name>
+        <description><![CDATA[1 Rue Jean Coquelin, 35200 Rennes, France]]></description>
+        <Point>
+            <coordinates>-1.6842858999999635,48.0910279,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #380</name>
+        <description><![CDATA[Commune de Rillieux la Pape, 165 Rue Ampère, 69140 Rillieux-la-Pape, France]]></description>
+        <Point>
+            <coordinates>4.897891200000004,45.8187383,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #381</name>
+        <description><![CDATA[Palais de la Bourse, 9 La Canebière, 13001 Marseille, France]]></description>
+        <Point>
+            <coordinates>5.375387000000046,43.29615889999999,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #383</name>
+        <description><![CDATA[11 Rue Pierre Dépierre, 42300 Roanne, France]]></description>
+        <Point>
+            <coordinates>4.076852400000007,46.0319023,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #386</name>
+        <description><![CDATA[2 Rue Maréchal Leclerc, 21000 Dijon, France]]></description>
+        <Point>
+            <coordinates>5.0703395000000455,47.3269656,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #389</name>
+        <description><![CDATA[51 Rue Jane Dieulafoy, 31450 Pompertuzat, France]]></description>
+        <Point>
+            <coordinates>1.5144041999999445,43.4892712,0</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Place #391</name>
+        <description><![CDATA[Avenue des Arts 27, 1000 Bruxelles, Belgique]]></description>
+        <Point>
+            <coordinates>4.368674800000008,50.84540519999999,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #394</name>
+        <description><![CDATA[Sint-Bernardusabdij 1, 2620 Hemiksem, Belgique]]></description>
+        <Point>
+            <coordinates>4.330188099999987,51.1315976,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #397</name>
+        <description><![CDATA[Grand-Rue 79, 1890 Saint-Maurice, Suisse]]></description>
+        <Point>
+            <coordinates>7.004470099999935,46.21983669999999,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #400</name>
+        <description><![CDATA[16 Rue Saint-Luc, 36000 Châteauroux, France]]></description>
+        <Point>
+            <coordinates>1.6978891999999632,46.8122749,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #403</name>
+        <description><![CDATA[Avenue du 19 Mars 1962, 72700 Allonnes, France]]></description>
+        <Point>
+            <coordinates>0.16483370000003106,47.9620101,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #406</name>
+        <description><![CDATA[43 Avenue Yolande d'Aragon, 49100 Angers, France]]></description>
+        <Point>
+            <coordinates>-0.5680046999999604,47.4707655,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #409</name>
+        <description><![CDATA[Avenue de la Bataille Flandres-Dunkerque, 35000 Rennes, France]]></description>
+        <Point>
+            <coordinates>-1.7017146000000594,48.121342,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #412</name>
+        <description><![CDATA[Gremmstrasse 6, 9053 Teufen, Suisse]]></description>
+        <Point>
+            <coordinates>9.387833399999977,47.390795,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #415</name>
+        <description><![CDATA[Provincia di Arezzo, Piazza Libertà, 3, 52100 Arezzo AR, Italie]]></description>
+        <Point>
+            <coordinates>11.883228799999983,43.4666652,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #418</name>
+        <description><![CDATA[Rathausplatz 1, 8500 Frauenfeld, Suisse]]></description>
+        <Point>
+            <coordinates>8.897320900000068,47.5556859,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #421</name>
+        <description><![CDATA[Route de Maillas, 33840 Captieux, France]]></description>
+        <Point>
+            <coordinates>-0.25407050000001163,44.284338,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #424</name>
+        <description><![CDATA[8 Avenue Robert Clavé, 33600 Pessac, France]]></description>
+        <Point>
+            <coordinates>-0.6525174999999308,44.7919343,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #427</name>
+        <description><![CDATA[Orbe, Suisse]]></description>
+        <Point>
+            <coordinates>6.534401500000058,46.7249203,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #430</name>
+        <description><![CDATA[Place du Huit Mai 1945, 78330 Fontenay-le-Fleury, France]]></description>
+        <Point>
+            <coordinates>2.0445188999999573,48.8111052,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #431</name>
+        <description><![CDATA[Rue Felix Eboue, Pointe-à-Pitre, Guadeloupe]]></description>
+        <Point>
+            <coordinates>-61.532391099999984,16.2452839,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #434</name>
+        <description><![CDATA[Le Causse, 81290 Labruguière, France]]></description>
+        <Point>
+            <coordinates>2.277504399999998,43.5536299,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #437</name>
+        <description><![CDATA[Avenue Louis Thiollier, 42570 Saint-Héand, France]]></description>
+        <Point>
+            <coordinates>4.373165999999969,45.5246129,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #440</name>
+        <description><![CDATA[4 Rue Denis Papin, 82000 Montauban, France]]></description>
+        <Point>
+            <coordinates>1.3654364000000214,44.0409786,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #443</name>
+        <description><![CDATA[4 Rue de Flandre, 08000 Charleville-Mézières, France]]></description>
+        <Point>
+            <coordinates>4.717980699999998,49.7742838,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #447</name>
+        <description><![CDATA[1 Place Charles de Gaulle, 38340 Voreppe, France]]></description>
+        <Point>
+            <coordinates>5.635904799999935,45.2926549,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #450</name>
+        <description><![CDATA[31 Rue du Colonel Pierre Avia, 75015 Issy-les-Moulineaux, France]]></description>
+        <Point>
+            <coordinates>2.2749108000000433,48.82933490000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #453</name>
+        <description><![CDATA[Via Gnocchi Viani, 16, 46035 Ostiglia MN, Italie]]></description>
+        <Point>
+            <coordinates>11.133714999999938,45.0647779,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #457</name>
+        <description><![CDATA[Hôpital Local Lumière, Place Emile Bouteuil, 04500 Riez, France]]></description>
+        <Point>
+            <coordinates>6.089796500000034,43.8198009,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #460</name>
+        <description><![CDATA[Kalmthout, Belgique]]></description>
+        <Point>
+            <coordinates>4.475180000000023,51.38298,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #464</name>
+        <description><![CDATA[12 Avenue du Pavillon, 13580 La Fare-les-Oliviers, France]]></description>
+        <Point>
+            <coordinates>5.199295799999959,43.5496129,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #467</name>
+        <description><![CDATA[9 Avenue Konrad Adenauer, 68390 Sausheim, France]]></description>
+        <Point>
+            <coordinates>7.383138199999962,47.77579840000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #471</name>
+        <description><![CDATA[Via Roma, Italie]]></description>
+        <Point>
+            <coordinates>13.351749599999948,43.4360553,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #474</name>
+        <description><![CDATA[1 Rue de Franche-Comté, 39300 Champagnole, France]]></description>
+        <Point>
+            <coordinates>5.910924799999975,46.73722739999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #478</name>
+        <description><![CDATA[Route de l'Abbaye 31, 1963 Vétroz, Suisse]]></description>
+        <Point>
+            <coordinates>7.280982300000005,46.22739120000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #481</name>
+        <description><![CDATA[47 Rue Louis Ulbach, 10000 Troyes, France]]></description>
+        <Point>
+            <coordinates>4.076850499999978,48.2952927,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #485</name>
+        <description><![CDATA[Winterthour, Suisse]]></description>
+        <Point>
+            <coordinates>8.737564600000042,47.49995,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #488</name>
+        <description><![CDATA[Rue de l'Hôtel-de-Ville 11, 1470 Estavayer-le-Lac, Suisse]]></description>
+        <Point>
+            <coordinates>6.846698800000013,46.848897,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #492</name>
+        <description><![CDATA[Place du Pont 2, 1337 Vallorbe, Suisse]]></description>
+        <Point>
+            <coordinates>6.379244299999982,46.7112918,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #495</name>
+        <description><![CDATA[Burgdorf, Allemagne]]></description>
+        <Point>
+            <coordinates>10.005624000000012,52.4470203,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #499</name>
+        <description><![CDATA[Grande-Rue 1, 1304 Cossonay, Suisse]]></description>
+        <Point>
+            <coordinates>6.507054700000026,46.6142639,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #507</name>
+        <description><![CDATA[Place de l'Église, 74110 Morzine, France]]></description>
+        <Point>
+            <coordinates>6.708974699999999,46.179248,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #511</name>
+        <description><![CDATA[Place Gabriel Hocquard, 57000 Metz, France]]></description>
+        <Point>
+            <coordinates>6.1752272999999605,49.1248162,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #515</name>
+        <description><![CDATA[Mairie de Presles-en-Brie, Rue Abel Leblanc, 77220 Presles-en-Brie, France]]></description>
+        <Point>
+            <coordinates>2.741572700000006,48.715122,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #523</name>
+        <description><![CDATA[94 Rue Gabriel Péri, 42100 Saint-Étienne, France]]></description>
+        <Point>
+            <coordinates>4.381508599999961,45.408891,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #527</name>
+        <description><![CDATA[Route de Trémolin, 42530 Saint-Genest-Lerpt, France]]></description>
+        <Point>
+            <coordinates>4.335937000000058,45.4590498,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #531</name>
+        <description><![CDATA[Rue Jean Duhornay, 76260 Eu, France]]></description>
+        <Point>
+            <coordinates>1.4129970000000185,50.0484719,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #532</name>
+        <description><![CDATA[18 Rue Chantereine, 27170 Beaumont-le-Roger, France]]></description>
+        <Point>
+            <coordinates>0.7772165000000086,49.0808167,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #535</name>
+        <description><![CDATA[L'Isle-d'Espagnac, France]]></description>
+        <Point>
+            <coordinates>0.19919200000003912,45.663854,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #540</name>
+        <description><![CDATA[18 Rue du Moutier, 51390 Gueux, France]]></description>
+        <Point>
+            <coordinates>3.9138500999999906,49.2487232,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #542</name>
+        <description><![CDATA[Hôtel de ville de Villeneuve-d'Ascq, Place Salvador Allende, 59650 Villeneuve-d'Ascq, France]]></description>
+        <Point>
+            <coordinates>3.1318089999999756,50.61949,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #544</name>
+        <description><![CDATA[Saint-Éloy-les-Mines, France]]></description>
+        <Point>
+            <coordinates>2.835107999999991,46.161138,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #545</name>
+        <description><![CDATA[Place de l'Hôtel de Ville, 04180 Villeneuve, France]]></description>
+        <Point>
+            <coordinates>5.861195700000053,43.8944436,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #547</name>
+        <description><![CDATA[Avenue de Catalogne, 66340 Palau-de-Cerdagne, France]]></description>
+        <Point>
+            <coordinates>1.9623560999999654,42.4177005,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #549</name>
+        <description><![CDATA[59 Rue Pasteur, 77170 Brie-Comte-Robert, France]]></description>
+        <Point>
+            <coordinates>2.6189567000000125,48.6925079,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #549</name>
+        <description><![CDATA[Avenue Professeur Félix Trombe, 66120 Font-Romeu-Odeillo-Via, France]]></description>
+        <Point>
+            <coordinates>2.034997999999973,42.49556,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #550</name>
+        <description><![CDATA[30 Place de l'Hôtel de ville, 54240 Jœuf, France]]></description>
+        <Point>
+            <coordinates>6.008647300000007,49.2297743,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #553</name>
+        <description><![CDATA[Rue du Docteur Raymond Verges, Réunion]]></description>
+        <Point>
+            <coordinates>55.409154400000034,-21.2884194,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #555</name>
+        <description><![CDATA[Basseterre, Saint-Kitts-et-Nevis]]></description>
+        <Point>
+            <coordinates>-62.71769240000003,17.3026058,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #558</name>
+        <description><![CDATA[1 Place de la République, 56950 Crac'h, France]]></description>
+        <Point>
+            <coordinates>-3.000641500000029,47.6157335,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #560</name>
+        <description><![CDATA[Rue du 11 Novembre, 78820 Juziers, France]]></description>
+        <Point>
+            <coordinates>1.8511175999999523,48.9931707,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #562</name>
+        <description><![CDATA[1 Place Genissieu, 26120 Chabeuil, France]]></description>
+        <Point>
+            <coordinates>5.019336599999974,44.899859,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #565</name>
+        <description><![CDATA[Mairie de Paris, 75004 Paris, France]]></description>
+        <Point>
+            <coordinates>2.352758699999981,48.8569188,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #565</name>
+        <description><![CDATA[12 Rue de l'Abani, 57535 Marange-Silvange, France]]></description>
+        <Point>
+            <coordinates>6.114295399999946,49.2145277,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #566</name>
+        <description><![CDATA[Place Jean Jaurès, 59450 Sin-le-Noble, France]]></description>
+        <Point>
+            <coordinates>3.113450999999941,50.36463800000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #567</name>
+        <description><![CDATA[86 Quai de la République, 85800 Saint-Gilles-Croix-de-Vie, France]]></description>
+        <Point>
+            <coordinates>-1.9446138000000701,46.6975354,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #569</name>
+        <description><![CDATA[84420 Piolenc, France]]></description>
+        <Point>
+            <coordinates>4.779514899999981,44.1765694,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #570</name>
+        <description><![CDATA[9 Rue des Quatre Vents, 51170 Romigny, France]]></description>
+        <Point>
+            <coordinates>3.767772100000002,49.17406399999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #572</name>
+        <description><![CDATA[Saint-Philibert, France]]></description>
+        <Point>
+            <coordinates>-2.9994489000000613,47.587901,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #575</name>
+        <description><![CDATA[24 Rue de Sully, 45500 Poilly-Lez-Gien, France]]></description>
+        <Point>
+            <coordinates>2.598458100000016,47.6780743,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #577</name>
+        <description><![CDATA[Mouy, France]]></description>
+        <Point>
+            <coordinates>2.319704999999999,49.319128,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #580</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 02300 Chauny, France]]></description>
+        <Point>
+            <coordinates>3.219374000000016,49.61528999999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #583</name>
+        <description><![CDATA[Avenue Pasteur, 13760 Saint-Cannat, France]]></description>
+        <Point>
+            <coordinates>5.293492199999946,43.6214069,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #585</name>
+        <description><![CDATA[390 Avenue des Lices, 83000 Toulon, France]]></description>
+        <Point>
+            <coordinates>5.93682560000002,43.1296871,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #588</name>
+        <description><![CDATA[Rue Rosa Parks, 14000 Caen, France]]></description>
+        <Point>
+            <coordinates>-0.3482807999999977,49.1785978,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #591</name>
+        <description><![CDATA[2 Avenue Youri Gagarine, 94400 Vitry-sur-Seine, France]]></description>
+        <Point>
+            <coordinates>2.388428200000021,48.78856829999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #594</name>
+        <description><![CDATA[Place de la Mairie, 56800 Ploërmel, France]]></description>
+        <Point>
+            <coordinates>-2.396907899999974,47.93003220000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #597</name>
+        <description><![CDATA[Rue de la République, 32500 Fleurance, France]]></description>
+        <Point>
+            <coordinates>0.6618710000000192,43.846837,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #600</name>
+        <description><![CDATA[2 Rue Pierre Vienot, 94880 Noiseau, France]]></description>
+        <Point>
+            <coordinates>2.5494787000000088,48.7746795,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #603</name>
+        <description><![CDATA[59 Rue de Brest, 29800 Landerneau, France]]></description>
+        <Point>
+            <coordinates>-4.257526800000051,48.4502618,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #606</name>
+        <description><![CDATA[Alixan, France]]></description>
+        <Point>
+            <coordinates>5.026462000000038,44.97498,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #609</name>
+        <description><![CDATA[11 Avenue François Mitterrand, 02880 Cuffies, France]]></description>
+        <Point>
+            <coordinates>3.3271591999999828,49.3993476,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #612</name>
+        <description><![CDATA[Kingersheim, France]]></description>
+        <Point>
+            <coordinates>7.334499000000051,47.789641,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #615</name>
+        <description><![CDATA[Lannion, France]]></description>
+        <Point>
+            <coordinates>-3.4591440000000375,48.732084,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #618</name>
+        <description><![CDATA[Place de la Charmeuse, 95190 Goussainville, France]]></description>
+        <Point>
+            <coordinates>2.4734198999999535,49.0327681,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #621</name>
+        <description><![CDATA[2 Rue de Paris, 92190 Meudon, France]]></description>
+        <Point>
+            <coordinates>2.248643099999981,48.8176509,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #625</name>
+        <description><![CDATA[4 Rue de Paris, 93230 Romainville, France]]></description>
+        <Point>
+            <coordinates>2.430952599999955,48.88467259999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #628</name>
+        <description><![CDATA[1 Place Salvador Allende, 94000 Créteil, France]]></description>
+        <Point>
+            <coordinates>2.453008700000055,48.7776722,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #631</name>
+        <description><![CDATA[13 Rue de Rigny, 54200 Toul, France]]></description>
+        <Point>
+            <coordinates>5.893766700000015,48.6756987,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #635</name>
+        <description><![CDATA[39 Avenue François Mitterrand, 77500 Chelles, France]]></description>
+        <Point>
+            <coordinates>2.5969380999999885,48.8771599,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #638</name>
+        <description><![CDATA[1 Place Richemont, 56370 Sarzeau, France]]></description>
+        <Point>
+            <coordinates>-2.768047900000056,47.5277939,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #642</name>
+        <description><![CDATA[Place de la Liberté, 45770 Saran, France]]></description>
+        <Point>
+            <coordinates>1.8747889999999643,47.951126,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #645</name>
+        <description><![CDATA[Fontenay-sous-Bois, France]]></description>
+        <Point>
+            <coordinates>2.4759070000000065,48.851542,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #653</name>
+        <description><![CDATA[Avenue du Mesnil, 95470 Fosses, France]]></description>
+        <Point>
+            <coordinates>2.515916000000061,49.1002,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #657</name>
+        <description><![CDATA[Place de la Concorde, 52000 Chaumont, France]]></description>
+        <Point>
+            <coordinates>5.139566999999943,48.111309,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #660</name>
+        <description><![CDATA[16 Place de l'Hôtel de ville, 02400 Château-Thierry, France]]></description>
+        <Point>
+            <coordinates>3.4023833999999624,49.0461665,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #664</name>
+        <description><![CDATA[390 Rue Henri Fabre, 38920 Crolles, France]]></description>
+        <Point>
+            <coordinates>5.896641300000056,45.2751763,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #668</name>
+        <description><![CDATA[Étoile-sur-Rhône, France]]></description>
+        <Point>
+            <coordinates>4.893909000000008,44.836929,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #672</name>
+        <description><![CDATA[4 Avenue de la Grande Duchesse Charlotte, 54400 Longwy, France]]></description>
+        <Point>
+            <coordinates>5.768555800000058,49.5145145,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #677</name>
+        <description><![CDATA[Place du 8 Mai 1945, 91220 Le Plessis-Pâte, France]]></description>
+        <Point>
+            <coordinates>2.3251281999999946,48.6123324,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #681</name>
+        <description><![CDATA[23 Rue des Buttes Blanches, 77100 Meaux, France]]></description>
+        <Point>
+            <coordinates>2.9092051000000083,48.9584777,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #685</name>
+        <description><![CDATA[Cuers, France]]></description>
+        <Point>
+            <coordinates>6.072199899999987,43.237875,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #694</name>
+        <description><![CDATA[Place de la Mairie, 31170 Tournefeuille, France]]></description>
+        <Point>
+            <coordinates>1.3459236999999575,43.5831306,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #698</name>
+        <description><![CDATA[Place d'Armes, 64300 Orthez, France]]></description>
+        <Point>
+            <coordinates>-0.7738173000000188,43.4879356,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #703</name>
+        <description><![CDATA[Poissy, France]]></description>
+        <Point>
+            <coordinates>2.046982000000071,48.929584,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #708</name>
+        <description><![CDATA[Quai Colbert, 30240 Le Grau-du-Roi, France]]></description>
+        <Point>
+            <coordinates>4.138815000000022,43.5378631,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #712</name>
+        <description><![CDATA[Montauban, France]]></description>
+        <Point>
+            <coordinates>1.3529598999999735,44.0221252,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #717</name>
+        <description><![CDATA[15 Avenue Maréchal Foch, 64100 Bayonne, France]]></description>
+        <Point>
+            <coordinates>-1.482250399999998,43.4933428,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #722</name>
+        <description><![CDATA[19 Avenue Georges Clemenceau, 59130 Lambersart, France]]></description>
+        <Point>
+            <coordinates>3.0225924000000077,50.647877,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #727</name>
+        <description><![CDATA[3 Rue de la Résistance, 95200 Sarcelles, France]]></description>
+        <Point>
+            <coordinates>2.378312199999982,48.9973962,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #732</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 16000 Angoulême, France]]></description>
+        <Point>
+            <coordinates>0.15597079999997732,45.6487648,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #737</name>
+        <description><![CDATA[Mairie de Vincennes, 53 Bis Rue de Fontenay, 94300 Vincennes, France]]></description>
+        <Point>
+            <coordinates>2.439825799999994,48.84768649999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #743</name>
+        <description><![CDATA[6 Place François Mitterrand, 37270 Montlouis-sur-Loire, France]]></description>
+        <Point>
+            <coordinates>0.8270973999999569,47.3884194,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #753</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 72200 La Flèche, France]]></description>
+        <Point>
+            <coordinates>-0.07505600000001778,47.69661,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #759</name>
+        <description><![CDATA[Place Salvador Allende, 93170 Bagnolet, France]]></description>
+        <Point>
+            <coordinates>2.4170851000000084,48.86883719999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #771</name>
+        <description><![CDATA[Place du Maréchal Philippe Leclerc, 86000 Poitiers, France]]></description>
+        <Point>
+            <coordinates>0.33952769999996235,46.5803525,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #776</name>
+        <description><![CDATA[Bruay-la-Buissière, France]]></description>
+        <Point>
+            <coordinates>2.5432060000000547,50.483113,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #782</name>
+        <description><![CDATA[Place de la Mairie, 29800 Plouédern, France]]></description>
+        <Point>
+            <coordinates>-4.246950100000049,48.4843699,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #795</name>
+        <description><![CDATA[27 Rue Castelvielh, 31600 Muret, France]]></description>
+        <Point>
+            <coordinates>1.330643699999996,43.461612,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #808</name>
+        <description><![CDATA[Place de l'Étape, 45000 Orléans, France]]></description>
+        <Point>
+            <coordinates>1.9085634000000482,47.9028681,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #814</name>
+        <description><![CDATA[vacances jeunes-Hôtel de Ville, 13 Boulevard du Maréchal Foch, 92500 Rueil-Malmaison, France]]></description>
+        <Point>
+            <coordinates>2.1803664000000254,48.8783421,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #828</name>
+        <description><![CDATA[Rue de la Libération, 95450 Condécourt, France]]></description>
+        <Point>
+            <coordinates>1.9411820000000262,49.039971,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #835</name>
+        <description><![CDATA[48 Avenue Charles de Gaulle, 91600 Savigny-sur-Orge, France]]></description>
+        <Point>
+            <coordinates>2.3458528999999544,48.6790514,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #849</name>
+        <description><![CDATA[4 Boulevard Noël Marc, 78570 Andrésy, France]]></description>
+        <Point>
+            <coordinates>2.0614803999999367,48.982059,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #849</name>
+        <description><![CDATA[27 Rue Castelvielh, 31600 Muret, France]]></description>
+        <Point>
+            <coordinates>1.330643699999996,43.461612,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #856</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 07000 Privas, France]]></description>
+        <Point>
+            <coordinates>4.5986820000000534,44.73528,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #863</name>
+        <description><![CDATA[13 Rue de Saint-Cloud, 92410 Ville-d'Avray, France]]></description>
+        <Point>
+            <coordinates>2.1896908999999596,48.8281769,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #871</name>
+        <description><![CDATA[Hotel de Ville, 1456 Avenue Roger Salengro, 92370 Chaville, France]]></description>
+        <Point>
+            <coordinates>2.188694899999973,48.8094548,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #879</name>
+        <description><![CDATA[10 Rue Philippe Marcombes, 63000 Clermont-Ferrand, France]]></description>
+        <Point>
+            <coordinates>3.0859866000000693,45.7792811,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #887</name>
+        <description><![CDATA[Le Tél, 81100 Castres, France]]></description>
+        <Point>
+            <coordinates>2.234234000000015,43.638941,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #903</name>
+        <description><![CDATA[19 Boulevard Georges Clemenceau, 13004 Marseille, France]]></description>
+        <Point>
+            <coordinates>5.397885200000019,43.300601,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #912</name>
+        <description><![CDATA[Place Charles de Gaulle, 31520 Ramonville-Saint-Agne, France]]></description>
+        <Point>
+            <coordinates>1.475349700000038,43.5463087,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #921</name>
+        <description><![CDATA[Place Georges Clemenceau, 83550 Vidauban, France]]></description>
+        <Point>
+            <coordinates>6.43112700000006,43.426898,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #922</name>
+        <description><![CDATA[Place du Maréchal Philippe Leclerc, 86000 Poitiers, France]]></description>
+        <Point>
+            <coordinates>0.33952769999996235,46.5803525,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #929</name>
+        <description><![CDATA[1 Rue Jean Fournier, 29470 Plougastel-Daoulas, France]]></description>
+        <Point>
+            <coordinates>-4.370837499999993,48.3726402,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #938</name>
+        <description><![CDATA[Esplanade Charles de Gaulle, 33000 Bordeaux, France]]></description>
+        <Point>
+            <coordinates>-0.5837394000000131,44.83731299999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #976</name>
+        <description><![CDATA[154 Avenue de la République, 94290 Villeneuve-le-Roi, France]]></description>
+        <Point>
+            <coordinates>2.411378799999966,48.7319514,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #986</name>
+        <description><![CDATA[Dax, France]]></description>
+        <Point>
+            <coordinates>-1.0519449999999324,43.708608,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #996</name>
+        <description><![CDATA[9 Place Saint-Louis, 41000 Blois, France]]></description>
+        <Point>
+            <coordinates>1.3385150000000294,47.5891046,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Place #1007</name>
+        <description><![CDATA[1 Place Pierre et Marie Curie, 94260 Fresnes, France]]></description>
+        <Point>
+            <coordinates>2.3217908999999963,48.7551921,0</coordinates>
+        </Point>
+    </Placemark>
+
+
+    <Placemark>
+        <name>Place #1017</name>
+        <description><![CDATA[Place de l'Hôtel de ville, 95140 Garges-lès-Gonesse, France]]></description>
+        <Point>
+            <coordinates>2.4001969999999346,48.971933,0</coordinates>
+        </Point>
+    </Placemark>
+</kml>
