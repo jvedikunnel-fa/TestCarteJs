@@ -15,13 +15,13 @@ $(function() {
 
     // Playback options
     var fAClientRetrospectiveOptions = {
-		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000,
-		anneeDeDepart : 2001,
+		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 1000,
+		anneeDeDepart : 2000,
 		anneeDeFin : 2015,
 		dateControl : true,
 		sliderControl : true
 		// TODO
     };
     // Initialize playback
-    var fAClientRetrospective = new L.FAClientRetrospective(map, data, null, fAClientRetrospectiveOptions);
+    var fAClientRetrospective = new L.FAClientRetrospective(map, data_fa, null, fAClientRetrospectiveOptions);
 });
