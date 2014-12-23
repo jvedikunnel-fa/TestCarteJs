@@ -11,30 +11,50 @@ L.FAClientRetrospective.Util = L.Class.extend({
 
 L.FAClientRetrospective.CouleurMarker = L.Class.extend({
     statics: {
-        couleurParDefaut : "#ff8056",
-        trouverCouleur : function (annee) {
-            function anneeCouleur(annee, couleur) {
+        couleurParDefaut_inviseo : "#E0EBFF",
+        couleurParDefaut_insito : "#FFDCDC",
+        trouverCouleur : function (type, annee) {
+            function anneeCouleur(type, annee, couleur) {
+                this.type = type;
                 this.annee = annee;
                 this.couleur = couleur;
             }
+            // http://www.w3schools.com/tags/ref_colorpicker.asp
             var backgroundColor = [
-                                new anneeCouleur(2000,"#D1FFD1"),
-                                new anneeCouleur(2001,"#C2FFC2"),
-                                new anneeCouleur(2002,"#B2FFB2"),
-                                new anneeCouleur(2003,"#A3FFA3"),
-                                new anneeCouleur(2004,"#94FF94"),
-                                new anneeCouleur(2005,"#85FF85"),
-                                new anneeCouleur(2006,"#75FF75"),
-                                new anneeCouleur(2007,"#66FF66"),
-                                new anneeCouleur(2008,"#5CE65C"),
-                                new anneeCouleur(2009,"#52CC52"),
-                                new anneeCouleur(2010,"#47B247"),
-                                new anneeCouleur(2011,"#3D993D"),
-                                new anneeCouleur(2012,"#338033"),
-                                new anneeCouleur(2013,"#296629"),
-                                new anneeCouleur(2014,"#1F4C1F  ")];
+                                new anneeCouleur("insito", 2000,"#FFCACA"),
+                                new anneeCouleur("insito", 2001,"#FFCACA"),
+                                new anneeCouleur("insito", 2002,"#FFCACA"),
+                                new anneeCouleur("insito", 2003,"#FFCACA"),
+                                new anneeCouleur("insito", 2004,"#FFCACA"),
+                                new anneeCouleur("insito", 2005,"#FFCACA"),
+                                new anneeCouleur("insito", 2006,"#FFB9B9"),
+                                new anneeCouleur("insito", 2007,"#FFA8A8"),
+                                new anneeCouleur("insito", 2008,"#FF9696"),
+                                new anneeCouleur("insito", 2009,"#FF8484"),
+                                new anneeCouleur("insito", 2010,"#FF7373"),
+                                new anneeCouleur("insito", 2011,"#FF6262"),
+                                new anneeCouleur("insito", 2012,"#FF5050"),
+                                new anneeCouleur("insito", 2013,"#E64848"),
+                                new anneeCouleur("insito", 2014,"#CC4040"),
+                                
+                                new anneeCouleur("inviseo", 2000,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2001,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2002,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2003,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2004,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2005,"#D1E0FF"),
+                                new anneeCouleur("inviseo", 2006,"#C2D6FF"),
+                                new anneeCouleur("inviseo", 2007,"#B2CCFF"),
+                                new anneeCouleur("inviseo", 2008,"#A3C2FF"),
+                                new anneeCouleur("inviseo", 2009,"#94B8FF"),
+                                new anneeCouleur("inviseo", 2010,"#85ADFF"),
+                                new anneeCouleur("inviseo", 2011,"#75A3FF"),
+                                new anneeCouleur("inviseo", 2012,"#6699FF"),
+                                new anneeCouleur("inviseo", 2013,"#5C8AE6"),
+                                new anneeCouleur("inviseo", 2014,"#527ACC")
+                                ];
             for (var i = 0, len = backgroundColor.length; i < len; i++) {
-                if (backgroundColor[i].annee === annee){
+                if (backgroundColor[i].annee === annee && backgroundColor[i].type === type){
                     return backgroundColor[i].couleur;
                 }
             }
@@ -189,18 +209,33 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
         if (this._clientFas.aAuMoinsUneLatLng(annee)){
             var latlngs = this._clientFas.trouverLatLngsPour(annee);
             var villes = this._clientFas.trouverLesVillesPour(annee);
-            this.charger(annee, latlngs, villes);
+            var types = this._clientFas.trouverLesTypesPour(annee);
+            this.charger(annee, latlngs, villes, types);
         }
     },
-    charger : function (annee, latlngs, villes) {
+    charger : function (annee, latlngs, villes, types) {
         var myIcon = L.divIcon({
             className: 'client-fa-marker-icon',
             iconSize: [13, 13]
         });
         for (var i = 0, len = latlngs.length; i < len; i++) {
+            var myIcon="";
+            if (types[i] === "inviseo"){
+                myIcon = L.divIcon({
+                        className: 'client-fa-marker-inviseo-icon',
+                        iconSize: [13, 13]
+                    });
+            }else {
+                myIcon = L.divIcon({
+                    className: 'client-fa-marker-insito-icon',
+                    iconSize: [13, 13]
+                });
+            }
             var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, icon: myIcon}).addTo(this._map)
-            marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(annee);
-            marker.bindPopup(villes[i]);
+            marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(types[i], 
+            annee);
+            var msgPopup = types[i] + " : " + villes[i] + " - " + annee;
+            marker.bindPopup(msgPopup);
         }
     },
     clearData : function () {
@@ -220,9 +255,10 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
         var clientFas = []
         var annees = geoJSON.properties.annees;
         var villes = geoJSON.properties.villes;
+        var types = geoJSON.properties.types;
         var coordinates = geoJSON.geometry.coordinates;
         for (var i = 0, len = coordinates.length; i < len; i++) {
-            clientFas.push(new clientFa(coordinates[i], annees[i], villes[i]));
+            clientFas.push(new clientFa(coordinates[i], annees[i], villes[i], types[i]));
         }
         return clientFas;
     },
@@ -253,6 +289,15 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
             }
         }
         return villes;
+    },
+    trouverLesTypesPour : function(annee){
+        var types = [];
+        for (var i = 0, len = this._clientFas.length; i < len; i++) {
+            if (this._clientFas[i].annee === annee){
+                types.push(this._clientFas[i].type);
+            }
+        }
+        return types;
     }
 });
 
@@ -361,8 +406,9 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
     }
 });
 
-function clientFa(coordonnee, annee, ville) {
+function clientFa(coordonnee, annee, ville, type) {
     this.coordonnee = coordonnee;
     this.annee = annee;
     this.ville = ville;
+    this.type = type;
 }
