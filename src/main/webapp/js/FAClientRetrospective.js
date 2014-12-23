@@ -9,6 +9,19 @@ L.FAClientRetrospective.Util = L.Class.extend({
 
 });
 
+L.FAClientRetrospective.MapClickInfo =  L.Class.extend({
+    initialize : function (map) {
+        this._map = map;
+        this._map.on('click', this._onMapClick, this);
+    },
+    _onMapClick : function (e) {
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent("Le futur client de Fa se trouve là: " + e.latlng.toString())
+            .openOn(this._map);
+    }
+});
+
 L.FAClientRetrospective.CouleurMarker = L.Class.extend({
     statics: {
         couleurParDefaut_inviseo : "#E0EBFF",
@@ -358,7 +371,8 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         DateControl : L.FAClientRetrospective.DateControl,
         Util : L.FAClientRetrospective.Util,
         CouleurMarker : L.FAClientRetrospective.CouleurMarker,
-        SliderControl : L.FAClientRetrospective.SliderControl
+        SliderControl : L.FAClientRetrospective.SliderControl,
+        MapClickInfo : L.FAClientRetrospective.MapClickInfo
     },
     options : {
         tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
@@ -381,6 +395,9 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         if (this.options.sliderControl) {
             this.sliderControl = new L.FAClientRetrospective.SliderControl(this);
             this.sliderControl.addTo(map);
+        }
+        if (this.options.mapClickInfo) {
+            this.mapClickInfo = new L.FAClientRetrospective.MapClickInfo(map);
         }
     },
     clearData : function(){
