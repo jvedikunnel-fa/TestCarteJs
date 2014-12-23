@@ -23,5 +23,5 @@ $(function() {
 		// TODO
     };
     // Initialize playback
-    var fAClientRetrospective = new L.FAClientRetrospective(map, data_plus, null, fAClientRetrospectiveOptions);
+    var fAClientRetrospective = new L.FAClientRetrospective(map, data_fa, null, fAClientRetrospectiveOptions);
 });
