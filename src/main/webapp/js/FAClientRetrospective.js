@@ -85,6 +85,9 @@ L.FAClientRetrospective.PlayControl = L.Control.extend({
         }
 
         return this._container;
+    },
+    stop : function(){
+        this._button.innerHTML = 'Play';
     }
 });
 
@@ -235,6 +238,7 @@ L.FAClientRetrospective.Clock = L.Class.extend({
     },
     _tick: function (self) {
         if (self._anneeCourante > self._anneeDeFin){
+            self.stopPlayButton();
             return;
         }
         self._clientFaController.tock(self._anneeCourante);
@@ -281,8 +285,8 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         L.FAClientRetrospective.Clock.prototype.initialize.call(this, this._clientFaController, callback, this.options);
         this.setData(geoJSON);
         
-        this.playControl = new L.FAClientRetrospective.PlayControl(this);
-        this.playControl.addTo(map);
+        this._playControl = new L.FAClientRetrospective.PlayControl(this);
+        this._playControl.addTo(map);
         
         if (this.options.dateControl) {
             this.dateControl = new L.FAClientRetrospective.DateControl(this);
@@ -311,6 +315,9 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
             return;
         }
         this._clientFaController.addData(new L.FAClientRetrospective.ClientFas(geoJSON, this.options));
+    },
+    stopPlayButton : function (){
+        this._playControl.stop();
     }
 });
 
