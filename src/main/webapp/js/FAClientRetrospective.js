@@ -192,15 +192,15 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
         this._options = options;
         this._clientFas = null;
     },
-    tock : function(annee){
-        if (this._clientFas.aAuMoinsUneLatLng(annee)){
-            var latlngs = this._clientFas.trouverLatLngsPour(annee);
-            var villes = this._clientFas.trouverLesVillesPour(annee);
-            var types = this._clientFas.trouverLesTypesPour(annee);
-            this.charger(annee, latlngs, villes, types);
+    tock : function(mois, annee){
+        if (this._clientFas.aAuMoinsUneLatLng(mois, annee)){
+            var latlngs = this._clientFas.trouverLatLngsPour(mois, annee);
+            var villes = this._clientFas.trouverLesVillesPour(mois, annee);
+            var types = this._clientFas.trouverLesTypesPour(mois, annee);
+            this.charger(mois, annee, latlngs, villes, types);
         }
     },
-    charger : function (annee, latlngs, villes, types) {
+    charger : function (mois, annee, latlngs, villes, types) {
         var myIcon = L.divIcon({
             className: 'client-fa-marker-icon',
             iconSize: [13, 13]
@@ -233,7 +233,7 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
             var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, icon: myIcon}).addTo(this._map)
             marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(types[i], 
             annee);
-            var msgPopup = types[i] + " : " + villes[i] + " - " + annee;
+            var msgPopup = types[i] + " : " + villes[i] + " - " + mois + "/" + annee;
             marker.bindPopup(msgPopup);
         }
     },
@@ -261,38 +261,42 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
         }
         return clientFas;
     },
-    aAuMoinsUneLatLng : function(annee){
+    aAuMoinsUneLatLng : function(mois, annee){
         var trouve = false;
         for (var i = 0, len = this._clientFas.length; i < len; i++) {
-            if (this._clientFas[i].annee === annee){
+            var date = new Date(this._clientFas[i].annee);
+            if (date.getFullYear() === annee && date.getMonth() === mois){
                 trouve = true;
                 break;
             }
         }
         return trouve;
     },
-    trouverLatLngsPour : function(annee){
+    trouverLatLngsPour : function(mois, annee){
         var latlngs = [];
         for (var i = 0, len = this._clientFas.length; i < len; i++) {
-            if (this._clientFas[i].annee === annee){
+            var date = new Date(this._clientFas[i].annee);
+            if (date.getFullYear() === annee && date.getMonth() === mois){
                 latlngs.push(this._clientFas[i].coordonnee);
             }
         }
         return latlngs;
     },
-    trouverLesVillesPour : function(annee){
+    trouverLesVillesPour : function(mois, annee){
         var villes = [];
         for (var i = 0, len = this._clientFas.length; i < len; i++) {
-            if (this._clientFas[i].annee === annee){
+            var date = new Date(this._clientFas[i].annee);
+            if (date.getFullYear() === annee && date.getMonth() === mois){
                 villes.push(this._clientFas[i].ville);
             }
         }
         return villes;
     },
-    trouverLesTypesPour : function(annee){
+    trouverLesTypesPour : function(mois, annee){
         var types = [];
         for (var i = 0, len = this._clientFas.length; i < len; i++) {
-            if (this._clientFas[i].annee === annee){
+            var date = new Date(this._clientFas[i].annee);
+            if (date.getFullYear() === annee && date.getMonth() === mois){
                 types.push(this._clientFas[i].type);
             }
         }
@@ -307,6 +311,7 @@ L.FAClientRetrospective.Clock = L.Class.extend({
         if (callback) this.addCallback(callback);
         this._clientFaController = clientFaController;
         this._anneeCourante = options.anneeDeDepart;
+        this._moisCourant = 1;
         this._anneeDeFin = options.anneeDeFin;
         this._tempsDAttenteEntreDeuxAjoutDeMarkerEnMs = options.tempsDAttenteEntreDeuxAjoutDeMarkerEnMs;
     },
@@ -324,9 +329,13 @@ L.FAClientRetrospective.Clock = L.Class.extend({
             self.stopPlayButton();
             return;
         }
-        self._clientFaController.tock(self._anneeCourante);
+        self._clientFaController.tock(self._moisCourant, self._anneeCourante);
         self.callbacks(self._anneeCourante);
-        self._anneeCourante += 1;
+        self._moisCourant += 1;
+        if (self._moisCourant == 13) {
+            self._anneeCourante += 1;
+            self._moisCourant = 1;
+        }
     },
     start: function () {
         this._intervalID = window.setInterval(

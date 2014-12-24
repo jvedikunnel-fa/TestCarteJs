@@ -15,8 +15,8 @@ $(function() {
 
     // Playback options
     var fAClientRetrospectiveOptions = {
-		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 1000,
-		anneeDeDepart : 2007,
+		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 500,
+		anneeDeDepart : 2003,
 		anneeDeFin : 2015,
 		dateControl : true,
 		sliderControl : true,
@@ -24,5 +24,5 @@ $(function() {
 		// TODO
     };
     // Initialize playback
-    var fAClientRetrospective = new L.FAClientRetrospective(map, data_fa, null, fAClientRetrospectiveOptions);
+    var fAClientRetrospective = new L.FAClientRetrospective(map, data_insito_aliance, null, fAClientRetrospectiveOptions);
 });
