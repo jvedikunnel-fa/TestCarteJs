@@ -19,7 +19,8 @@ $(function() {
 		anneeDeDepart : 2007,
 		anneeDeFin : 2015,
 		dateControl : true,
-		sliderControl : true
+		sliderControl : true,
+		mapClickInfo : true
 		// TODO
     };
     // Initialize playback
