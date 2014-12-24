@@ -203,29 +203,29 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
     charger : function (mois, annee, latlngs, villes, types) {
         var myIcon = L.divIcon({
             className: 'client-fa-marker-icon',
-            iconSize: [13, 13]
+            iconSize: [5, 5]
         });
         for (var i = 0, len = latlngs.length; i < len; i++) {
             var myIcon="";
             if (types[i] === "insito"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-insito-icon',
-                        iconSize: [13, 13]
+                        iconSize: [5, 5]
                     });
             } else if (types[i] === "alliance"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-alliance-icon',
-                        iconSize: [13, 13]
+                        iconSize: [5, 5]
                     });
             } else if (types[i] === "inviseo"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-inviseo-icon',
-                        iconSize: [13, 13]
+                        iconSize: [5, 5]
                     });
             } else if (types[i] === "previsio"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-previsio-icon',
-                        iconSize: [13, 13]
+                        iconSize: [5, 5]
                     });
             } else {
                 alert("Type non reconnu: " + types[i]);
