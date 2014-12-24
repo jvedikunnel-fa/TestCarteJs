@@ -1,0 +1,71 @@
+// http://www.w3schools.com/tags/ref_colorpicker.asp
+var backgroundColor = [
+    new anneeCouleur("insito", 2000,"#D1E0FF"),
+    new anneeCouleur("insito", 2001,"#D1E0FF"),
+    new anneeCouleur("insito", 2002,"#D1E0FF"),
+    new anneeCouleur("insito", 2003,"#D1E0FF"),
+    new anneeCouleur("insito", 2004,"#D1E0FF"),
+    new anneeCouleur("insito", 2005,"#D1E0FF"),
+    new anneeCouleur("insito", 2006,"#C2D6FF"),
+    new anneeCouleur("insito", 2007,"#B2CCFF"),
+    new anneeCouleur("insito", 2008,"#A3C2FF"),
+    new anneeCouleur("insito", 2009,"#94B8FF"),
+    new anneeCouleur("insito", 2010,"#85ADFF"),
+    new anneeCouleur("insito", 2011,"#75A3FF"),
+    new anneeCouleur("insito", 2012,"#6699FF"),
+    new anneeCouleur("insito", 2013,"#5C8AE6"),
+    new anneeCouleur("insito", 2014,"#527ACC"),
+
+    new anneeCouleur("inviseo", 2000,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2001,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2002,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2003,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2004,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2005,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2006,"#C2F0F0"),
+    new anneeCouleur("inviseo", 2007,"#ADEBEB"),
+    new anneeCouleur("inviseo", 2008,"#99E6E6"),
+    new anneeCouleur("inviseo", 2009,"#85E0E0"),
+    new anneeCouleur("inviseo", 2010,"#70DBDB"),
+    new anneeCouleur("inviseo", 2011,"#5CD6D6"),
+    new anneeCouleur("inviseo", 2012,"#47D1D1"),
+    new anneeCouleur("inviseo", 2013,"#33CCCC"),
+    new anneeCouleur("inviseo", 2014,"#2EB8B8"),
+    
+    new anneeCouleur("alliance", 2000,"#FFCACA"),
+    new anneeCouleur("alliance", 2001,"#FFCACA"),
+    new anneeCouleur("alliance", 2002,"#FFCACA"),
+    new anneeCouleur("alliance", 2003,"#FFCACA"),
+    new anneeCouleur("alliance", 2004,"#FFCACA"),
+    new anneeCouleur("alliance", 2005,"#FFCACA"),
+    new anneeCouleur("alliance", 2006,"#FFB9B9"),
+    new anneeCouleur("alliance", 2007,"#FFA8A8"),
+    new anneeCouleur("alliance", 2008,"#FF9696"),
+    new anneeCouleur("alliance", 2009,"#FF8484"),
+    new anneeCouleur("alliance", 2010,"#FF7373"),
+    new anneeCouleur("alliance", 2011,"#FF6262"),
+    new anneeCouleur("alliance", 2012,"#FF5050"),
+    new anneeCouleur("alliance", 2013,"#E64848"),
+    new anneeCouleur("alliance", 2014,"#CC4040"),
+    
+    new anneeCouleur("alliance", 2000,"#FFCACA"),// TODO à remplacer par une autre couleur
+    new anneeCouleur("alliance", 2001,"#FFCACA"),
+    new anneeCouleur("alliance", 2002,"#FFCACA"),
+    new anneeCouleur("alliance", 2003,"#FFCACA"),
+    new anneeCouleur("alliance", 2004,"#FFCACA"),
+    new anneeCouleur("alliance", 2005,"#FFCACA"),
+    new anneeCouleur("alliance", 2006,"#FFB9B9"),
+    new anneeCouleur("alliance", 2007,"#FFA8A8"),
+    new anneeCouleur("alliance", 2008,"#FF9696"),
+    new anneeCouleur("alliance", 2009,"#FF8484"),
+    new anneeCouleur("alliance", 2010,"#FF7373"),
+    new anneeCouleur("alliance", 2011,"#FF6262"),
+    new anneeCouleur("alliance", 2012,"#FF5050"),
+    new anneeCouleur("alliance", 2013,"#E64848"),
+    new anneeCouleur("alliance", 2014,"#CC4040")
+    ];
+function anneeCouleur(type, annee, couleur) {
+    this.type = type;
+    this.annee = annee;
+    this.couleur = couleur;
+}

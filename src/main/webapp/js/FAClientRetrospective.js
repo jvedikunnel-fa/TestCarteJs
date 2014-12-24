@@ -24,54 +24,28 @@ L.FAClientRetrospective.MapClickInfo =  L.Class.extend({
 
 L.FAClientRetrospective.CouleurMarker = L.Class.extend({
     statics: {
-        couleurParDefaut_inviseo : "#E0EBFF",
-        couleurParDefaut_insito : "#FFDCDC",
+        couleurParDefaut_insito : "#D1E0FF",
+        couleurParDefaut_inviseo : "#C2F0F0",
+        couleurParDefaut_alliance : "#FFCACA",
+        couleurParDefaut_previsio : "#FFCACA", // TODO à remplacer par une autre couleur
         trouverCouleur : function (type, annee) {
-            function anneeCouleur(type, annee, couleur) {
-                this.type = type;
-                this.annee = annee;
-                this.couleur = couleur;
-            }
-            // http://www.w3schools.com/tags/ref_colorpicker.asp
-            var backgroundColor = [
-                                new anneeCouleur("insito", 2000,"#FFCACA"),
-                                new anneeCouleur("insito", 2001,"#FFCACA"),
-                                new anneeCouleur("insito", 2002,"#FFCACA"),
-                                new anneeCouleur("insito", 2003,"#FFCACA"),
-                                new anneeCouleur("insito", 2004,"#FFCACA"),
-                                new anneeCouleur("insito", 2005,"#FFCACA"),
-                                new anneeCouleur("insito", 2006,"#FFB9B9"),
-                                new anneeCouleur("insito", 2007,"#FFA8A8"),
-                                new anneeCouleur("insito", 2008,"#FF9696"),
-                                new anneeCouleur("insito", 2009,"#FF8484"),
-                                new anneeCouleur("insito", 2010,"#FF7373"),
-                                new anneeCouleur("insito", 2011,"#FF6262"),
-                                new anneeCouleur("insito", 2012,"#FF5050"),
-                                new anneeCouleur("insito", 2013,"#E64848"),
-                                new anneeCouleur("insito", 2014,"#CC4040"),
-                                
-                                new anneeCouleur("inviseo", 2000,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2001,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2002,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2003,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2004,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2005,"#D1E0FF"),
-                                new anneeCouleur("inviseo", 2006,"#C2D6FF"),
-                                new anneeCouleur("inviseo", 2007,"#B2CCFF"),
-                                new anneeCouleur("inviseo", 2008,"#A3C2FF"),
-                                new anneeCouleur("inviseo", 2009,"#94B8FF"),
-                                new anneeCouleur("inviseo", 2010,"#85ADFF"),
-                                new anneeCouleur("inviseo", 2011,"#75A3FF"),
-                                new anneeCouleur("inviseo", 2012,"#6699FF"),
-                                new anneeCouleur("inviseo", 2013,"#5C8AE6"),
-                                new anneeCouleur("inviseo", 2014,"#527ACC")
-                                ];
             for (var i = 0, len = backgroundColor.length; i < len; i++) {
                 if (backgroundColor[i].annee === annee && backgroundColor[i].type === type){
                     return backgroundColor[i].couleur;
                 }
             }
-            return this.couleurParDefaut;
+            if (type === "insito"){
+                return this.couleurParDefaut_insito;
+            } else if (type === "alliance"){
+                return this.couleurParDefaut_inviseo;
+            } else if (type === "inviseo"){
+                return this.couleurParDefaut_alliance;
+            } else if (type === "previsio"){
+                return this.couleurParDefaut_previsio;
+            } else {
+                alert("Type non reconnu: " + type);
+            }
+
         }
   }
 });
@@ -233,16 +207,28 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
         });
         for (var i = 0, len = latlngs.length; i < len; i++) {
             var myIcon="";
-            if (types[i] === "inviseo"){
+            if (types[i] === "insito"){
+                myIcon = L.divIcon({
+                        className: 'client-fa-marker-insito-icon',
+                        iconSize: [13, 13]
+                    });
+            } else if (types[i] === "alliance"){
+                myIcon = L.divIcon({
+                        className: 'client-fa-marker-alliance-icon',
+                        iconSize: [13, 13]
+                    });
+            } else if (types[i] === "inviseo"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-inviseo-icon',
                         iconSize: [13, 13]
                     });
-            }else {
+            } else if (types[i] === "previsio"){
                 myIcon = L.divIcon({
-                    className: 'client-fa-marker-insito-icon',
-                    iconSize: [13, 13]
-                });
+                        className: 'client-fa-marker-previsio-icon',
+                        iconSize: [13, 13]
+                    });
+            } else {
+                alert("Type non reconnu: " + types[i]);
             }
             var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, icon: myIcon}).addTo(this._map)
             marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(types[i], 
