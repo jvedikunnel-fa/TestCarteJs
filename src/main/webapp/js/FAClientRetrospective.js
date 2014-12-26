@@ -254,7 +254,7 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
             } else {
                 alert("Type non reconnu: " + types[i]);
             }
-            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, icon: myIcon}).addTo(this._map)
+            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, bounceOnAddDuration:this._options.bounceOnAddDuration, icon: myIcon}).addTo(this._map)
             marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(types[i], 
             annee);
             var msgPopup = types[i] + " : " + villes[i] + " - " + annee;

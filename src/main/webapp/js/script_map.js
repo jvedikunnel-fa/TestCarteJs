@@ -15,6 +15,7 @@ $(function() {
 
     // Playback options
     var fAClientRetrospectiveOptions = {
+		bounceOnAddDuration : 1 * 1000, // temps de chute pour un marker
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 1000,
 		anneeDeDepart : 2007,
 		anneeDeFin : 2015,
