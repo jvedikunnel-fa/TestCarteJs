@@ -18,10 +18,12 @@ $(function() {
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 1 * 1000,
 		anneeDeDepart : 2007,
 		anneeDeFin : 2015,
+		titleLegende : true,
 		dateControl : true,
 		sliderControl : true,
-		mapClickInfo : true
-		// TODO
+		mapClickInfo : false
+		
+		// TODO ajouter d'autres options
     };
     // Initialize playback
     var fAClientRetrospective = new L.FAClientRetrospective(map, data_fa, null, fAClientRetrospectiveOptions);
