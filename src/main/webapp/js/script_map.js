@@ -17,8 +17,8 @@ $(function() {
     var fAClientRetrospectiveOptions = {
 		bounceOnAddDuration : 1 * 1000, // temps de chute pour un marker
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 0.5 * 1000,
-		anneeMoisDeDepart : "2007-1",
-		anneeMoisDeFin :"2015-1",
+		anneeMoisDeDepart : "2013-01",
+		anneeMoisDeFin :"2015-01",
 		titleLegende : true,
 		dateControl : true,
 		sliderControl : true,
@@ -27,5 +27,5 @@ $(function() {
 		// TODO ajouter d'autres options
     };
     // Initialize playback
-    var fAClientRetrospective = new L.FAClientRetrospective(map, data_fa, null, fAClientRetrospectiveOptions);
+    var fAClientRetrospective = new L.FAClientRetrospective(map, data_insito_aliance, null, fAClientRetrospectiveOptions);
 });
