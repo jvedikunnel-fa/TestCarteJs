@@ -6,8 +6,8 @@ L.FAClientRetrospective.Util = L.Class.extend({
             var split = anneeMois.split("-");
             var annee = parseInt(split[0],10);
             var mois = parseInt(split[1],10);
-            var moisDeLAnnee = ["janvier","février","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","décembre"];
-            return "Année: " + annee + ", mois: " + moisDeLAnnee[mois-1];
+            var moisDeLAnnee = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
+            return annee + " - " + moisDeLAnnee[mois-1];
         }
     }
 
@@ -251,7 +251,7 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
             } else {
                 alert("Type non reconnu: " + types[i]);
             }
-            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: true, bounceOnAddDuration:this._options.bounceOnAddDuration, icon: myIcon}).addTo(this._map)
+            var marker = L.marker([latlngs[i][0], latlngs[i][1]], {bounceOnAdd: false, bounceOnAddDuration:this._options.bounceOnAddDuration, icon: myIcon}).addTo(this._map)
             marker.valueOf()._icon.style.backgroundColor = L.FAClientRetrospective.CouleurMarker.trouverCouleur(types[i],
             anneeMois);
             var msgPopup = types[i] + " : " + villes[i] + " - " + anneeMois;
