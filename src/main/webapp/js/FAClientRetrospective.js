@@ -83,6 +83,28 @@ L.FAClientRetrospective.DateControl = L.Control.extend({
     }
 });
 
+L.FAClientRetrospective.TitleLegende = L.Control.extend({
+    options : {
+        position : 'topleft'
+    },
+
+    initialize : function (fAClientRetrospective) {
+        this.fAClientRetrospective = fAClientRetrospective;
+    },
+
+    onAdd : function (map) {
+        this._container = L.DomUtil.create('div', 'info legend'),
+            labels = ['<h1><strong> Rétrospective Clients FA </strong></h1>'];
+            
+        labels.push('<h3><i style="background:#D1E0FF"></i>Insito</h3>');
+        labels.push('<h3><i style="background:#FFCACA"></i>Alliance</h3>');
+        labels.push('<h3><i style="background:#C2F0F0"></i>Inviseo</h3>');
+        labels.push('<h3><i style="background:#FFCACA"></i>Previsio</h3>');// TODO mettre la bonne couleur
+        this._container.innerHTML=labels.join('<br>');
+        return this._container;
+    }
+});
+
 L.FAClientRetrospective.PlayControl = L.Control.extend({
     options : {
         position : 'bottomright'
@@ -201,31 +223,33 @@ L.FAClientRetrospective.ClientFaController = L.Class.extend({
         }
     },
     charger : function (mois, annee, latlngs, villes, types) {
+        var markerW=5;
+        var markerH=5;
         var myIcon = L.divIcon({
             className: 'client-fa-marker-icon',
-            iconSize: [5, 5]
+            iconSize: [markerW, markerH]
         });
         for (var i = 0, len = latlngs.length; i < len; i++) {
             var myIcon="";
             if (types[i] === "insito"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-insito-icon',
-                        iconSize: [5, 5]
+                        iconSize: [markerW, markerH]
                     });
             } else if (types[i] === "alliance"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-alliance-icon',
-                        iconSize: [5, 5]
+                        iconSize: [markerW, markerH]
                     });
             } else if (types[i] === "inviseo"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-inviseo-icon',
-                        iconSize: [5, 5]
+                        iconSize: [markerW, markerH]
                     });
             } else if (types[i] === "previsio"){
                 myIcon = L.divIcon({
                         className: 'client-fa-marker-previsio-icon',
-                        iconSize: [5, 5]
+                        iconSize: [markerW, markerH]
                     });
             } else {
                 alert("Type non reconnu: " + types[i]);
@@ -251,7 +275,7 @@ L.FAClientRetrospective.ClientFas = L.Class.extend({
         this._clientFas = this.charger(geoJSON);
     },
     charger : function (geoJSON){
-        var clientFas = []
+        var clientFas = [];
         var annees = geoJSON.properties.annees;
         var villes = geoJSON.properties.villes;
         var types = geoJSON.properties.types;
@@ -367,10 +391,11 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         Util : L.FAClientRetrospective.Util,
         CouleurMarker : L.FAClientRetrospective.CouleurMarker,
         SliderControl : L.FAClientRetrospective.SliderControl,
-        MapClickInfo : L.FAClientRetrospective.MapClickInfo
+        MapClickInfo : L.FAClientRetrospective.MapClickInfo,
+        TitleLegende : L.FAClientRetrospective.TitleLegende
     },
     options : {
-        tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3000
+        tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 3 * 000
     },
     initialize : function (map, geoJSON, callback, options) {
         L.setOptions(this, options);
@@ -393,6 +418,10 @@ L.FAClientRetrospective = L.FAClientRetrospective.Clock.extend({
         }
         if (this.options.mapClickInfo) {
             this.mapClickInfo = new L.FAClientRetrospective.MapClickInfo(map);
+        }
+        if (this.options.titleLegende) {
+            this.titleLegende = new L.FAClientRetrospective.TitleLegende(this);
+            this.titleLegende.addTo(map);
         }
     },
     clearData : function(){
