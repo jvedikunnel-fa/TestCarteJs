@@ -4,7 +4,8 @@ $(function() {
             mapLink =
                 '<a href="http://openstreetmap.org">OpenStreetMap</a>';
             L.tileLayer(
-                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                //'http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png', {
+                'http://www.komoot.de/tiles/b/{z}/{x}/{y}.png', {
                 attribution: '&copy; ' + mapLink + ' Contributors',
                 maxZoom: 18,
                 }).addTo(map);
