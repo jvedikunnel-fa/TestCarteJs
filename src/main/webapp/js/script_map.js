@@ -8,7 +8,7 @@ $(function() {
                 //'http://www.komoot.de/tiles/a/{z}/{x}/{y}.png', {
                 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
                 attribution: '&copy; ' + mapLink + ' Contributors',
-                maxZoom: 18,
+                maxZoom: 18
                 }).addTo(map);
 
     // =====================================================
@@ -19,7 +19,7 @@ $(function() {
     var fAClientRetrospectiveOptions = {
 		bounceOnAddDuration : 1 * 1000, // temps de chute pour un marker
 		tempsDAttenteEntreDeuxAjoutDeMarkerEnMs : 0.25 * 1000,
-		anneeMoisDeDepart : "2003-01",
+		anneeMoisDeDepart : "2000-04",
 		anneeMoisDeFin :"2015-01",
 		titleLegende : false,
 		dateControl : true,
